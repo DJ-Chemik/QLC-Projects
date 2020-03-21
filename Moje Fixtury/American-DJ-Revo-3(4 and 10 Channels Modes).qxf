@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>MC DJ</Author>
+ </Creator>
+ <Manufacturer>American DJ</Manufacturer>
+ <Model>Revo III</Model>
+ <Type>Flower</Type>
+ <Channel Name="Tryb Pracy">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="119" Color="#55ff00" Color2="#55ffff">Tryb &quot;Pattern&quot;</Capability>
+  <Capability Min="120" Max="239" Color="#ff0000" Color2="#5555ff">Tryb &quot;Chase&quot;</Capability>
+  <Capability Min="240" Max="255" Color="#aa5500">Tryb Automatyczny</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase All">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 1">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 2">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 3">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 4">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 5">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 6">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern\Chase 7">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="9" Color="#000000">Blackout</Capability>
+  <Capability Min="10" Max="19">01</Capability>
+  <Capability Min="20" Max="29">02</Capability>
+  <Capability Min="30" Max="39">03</Capability>
+  <Capability Min="40" Max="49">04</Capability>
+  <Capability Min="50" Max="59">05</Capability>
+  <Capability Min="60" Max="69">06</Capability>
+  <Capability Min="70" Max="79">07</Capability>
+  <Capability Min="80" Max="89">08</Capability>
+  <Capability Min="90" Max="99">09</Capability>
+  <Capability Min="100" Max="109">10</Capability>
+  <Capability Min="110" Max="119">11</Capability>
+  <Capability Min="120" Max="129">12</Capability>
+  <Capability Min="130" Max="139">13</Capability>
+  <Capability Min="140" Max="149">14</Capability>
+  <Capability Min="150" Max="159">15</Capability>
+  <Capability Min="160" Max="169">16</Capability>
+  <Capability Min="170" Max="179">17</Capability>
+  <Capability Min="180" Max="189">18</Capability>
+  <Capability Min="190" Max="199">19</Capability>
+  <Capability Min="200" Max="209">20</Capability>
+  <Capability Min="210" Max="219">21</Capability>
+  <Capability Min="220" Max="229">22</Capability>
+  <Capability Min="230" Max="239">23</Capability>
+  <Capability Min="240" Max="249">24</Capability>
+  <Capability Min="250" Max="255">25</Capability>
+ </Channel>
+ <Channel Name="Pattern Strobe\Chase Speed">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="9">Pattern Blackout\Chase Slow</Capability>
+  <Capability Min="10" Max="255">From Slow to Fast Strobe\Chase Speed</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Mode Name="4 Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Tryb Pracy</Channel>
+  <Channel Number="1">Pattern\Chase All</Channel>
+  <Channel Number="2">Pattern Strobe\Chase Speed</Channel>
+  <Channel Number="3">Dimmer</Channel>
+ </Mode>
+ <Mode Name="10 Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Tryb Pracy</Channel>
+  <Channel Number="1">Pattern\Chase 1</Channel>
+  <Channel Number="2">Pattern\Chase 2</Channel>
+  <Channel Number="3">Pattern\Chase 3</Channel>
+  <Channel Number="4">Pattern\Chase 4</Channel>
+  <Channel Number="5">Pattern\Chase 5</Channel>
+  <Channel Number="6">Pattern\Chase 6</Channel>
+  <Channel Number="7">Pattern\Chase 7</Channel>
+  <Channel Number="8">Pattern Strobe\Chase Speed</Channel>
+  <Channel Number="9">Dimmer</Channel>
+ </Mode>
+</FixtureDefinition>

@@ -1,0 +1,3819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>MC DJ</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="AVT512pro" ID="0">
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="84"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>0</ID>
+   <Name>Flat 7x18W RGBWA-UV #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>1</ID>
+   <Name>Flat 7x18W RGBWA-UV #2</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>2</ID>
+   <Name>Flat 7x18W RGBWA-UV #3</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>3</ID>
+   <Name>Flat 7x18W RGBWA-UV #4</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>4</ID>
+   <Name>Flat 7x18W RGBWA-UV #5</Name>
+   <Universe>0</Universe>
+   <Address>40</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>LED PAR</Manufacturer>
+   <Model>Flat 7x18W RGBWA-UV</Model>
+   <Mode>10-Channel Mode</Mode>
+   <ID>5</ID>
+   <Name>Flat 7x18W RGBWA-UV #6</Name>
+   <Universe>0</Universe>
+   <Address>50</Address>
+   <Channels>10</Channels>
+   <ForcedLTP>0,1,2,3,4,5,6</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>DERBY LED </Manufacturer>
+   <Model>Flash Butrym RBWA</Model>
+   <Mode>7-Channel Mode</Mode>
+   <ID>8</ID>
+   <Name>Flash Butrym RBWA #1</Name>
+   <Universe>0</Universe>
+   <Address>60</Address>
+   <Channels>7</Channels>
+   <ForcedLTP>1,2,3,4</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>DERBY LED </Manufacturer>
+   <Model>Flash Butrym RBWA</Model>
+   <Mode>7-Channel Mode</Mode>
+   <ID>9</ID>
+   <Name>Flash Butrym RBWA #2</Name>
+   <Universe>0</Universe>
+   <Address>70</Address>
+   <Channels>7</Channels>
+   <ForcedLTP>1,2,3,4</ForcedLTP>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Revo III</Model>
+   <Mode>4 Channel Mode</Mode>
+   <ID>10</ID>
+   <Name>Revo III</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>4</Channels>
+   <ForcedLTP>3</ForcedLTP>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="ALL DERBY -&gt; RED" Path="DERBY/ALL DERBY -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="ALL DERBY -&gt; GREEN" Path="DERBY/ALL DERBY -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="Włącz wszystkie urządzenia (Dimmers -&gt; MAX)" Path="WSZYSTKIE ŚWIATŁA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8"/>
+   <FixtureVal ID="9"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+   <FixtureVal ID="10">3,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="ALL DERBY -&gt; BLUE" Path="DERBY/ALL DERBY -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,255,4,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="ALL PARs -&gt; RED" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="ALL PARs -&gt; BLUE" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="ALL DERBY -&gt; WHITE" Path="DERBY/ALL DERBY -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="ALL DERBY -&gt; All Colors (rgbw)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="ALL DERBY -&gt; Yellow (green+red)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,255,3,0,4,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="ALL DERBY -&gt; Cyan (blue+green)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,255,4,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="ALL DERBY -&gt; Magenta (blue+red)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,255,4,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="ALL DERBY -&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,128,3,255,4,0</FixtureVal>
+   <FixtureVal ID="9">1,0,2,128,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="ALL PARs OFF" Path="PARY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0</FixtureVal>
+   <FixtureVal ID="1">0,0</FixtureVal>
+   <FixtureVal ID="2">0,0</FixtureVal>
+   <FixtureVal ID="3">0,0</FixtureVal>
+   <FixtureVal ID="4">0,0</FixtureVal>
+   <FixtureVal ID="5">0,0</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="ALL PARs ON" Path="PARY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255</FixtureVal>
+   <FixtureVal ID="1">0,255</FixtureVal>
+   <FixtureVal ID="2">0,255</FixtureVal>
+   <FixtureVal ID="3">0,255</FixtureVal>
+   <FixtureVal ID="4">0,255</FixtureVal>
+   <FixtureVal ID="5">0,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="(220)" Path="DERBY/Tryby wbudowane AUTO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,220</FixtureVal>
+   <FixtureVal ID="9">6,220</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="ALL PARs -&gt; AMBER" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="ALL PARs -&gt; WHITE" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="ALL PARs -&gt; UV" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="ALL PARs -&gt; Cyan (blue+green)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Scene" Name="ALL PARs -&gt; Magenta (blue+red)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="20" Type="Scene" Name="ALL DERBY -&gt; (green+white)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Scene" Name="ALL PARs -&gt;  Mint (green+uv)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="22" Type="Scene" Name="ALL PARs -&gt;  Cold White (rgbw)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="23" Type="Scene" Name="ALL PARs -&gt; Orange Intense (red+amber)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="ALL PARs -&gt; Yellow (green+red)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="ALL PARs -&gt;  Warm White (rgbwa)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="ALL PARs -&gt; (blue+white)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Scene" Name="ALL PARs -&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="28" Type="Scene" Name="[1] RED" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="Gradient (255)" Path="PARY/TRYBY WBUDOWANE Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,187,9,255</FixtureVal>
+   <FixtureVal ID="1">0,255,8,187,9,255</FixtureVal>
+   <FixtureVal ID="2">0,255,8,187,9,255</FixtureVal>
+   <FixtureVal ID="3">0,255,8,187,9,255</FixtureVal>
+   <FixtureVal ID="4">0,255,8,187,9,255</FixtureVal>
+   <FixtureVal ID="5">0,255,8,187,9,255</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="[1] BLUE" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="[1] WHITE" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="[1] GREEN" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="[1] UV" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Scene" Name="[1] AMBER" Path="PARY/PAR [1]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="35" Type="Scene" Name="[2] WHITE" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="[2] UV" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="[2] RED" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="[2] GREEN" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="[2] BLUE" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="[2] AMBER" Path="PARY/PAR [2]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="[3] WHITE" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Scene" Name="[3] UV" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="43" Type="Scene" Name="[3] RED" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="[3] GREEN" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="[3] BLUE" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="[3] AMBER" Path="PARY/PAR [3]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="[4] WHITE" Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="[4] UV" Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Scene" Name="[4] RED" Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="50" Type="Scene" Name="[4] GREEN " Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="51" Type="Scene" Name="[4] BLUE" Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="52" Type="Scene" Name="[4] AMBER" Path="PARY/PAR [4]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="53" Type="Scene" Name="[5] WHITE" Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="[5] UV" Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="[5] GREEN" Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="[5] RED " Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="[5] BLUE" Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="[5] AMBER" Path="PARY/PAR [5]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="[6] GREEN" Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="[6] UV" Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="61" Type="Scene" Name="[6] WHITE " Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="62" Type="Scene" Name="[6] RED" Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="[6] AMBER" Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="[6] BLUE" Path="PARY/PAR [6]/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="[1] Yellow (green+red)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="[1] Cyan (blue+green)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="[1] Orange Intense (red+amber)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="[1] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="[1] (blue+white)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="[1] Warm White (rgbwa)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="[1] Cold White (rgbw)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="[1] Mint (green+uv)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="[1] Magenta (blue+red)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="[2] (blue+white)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="[2] Cold White (rgbw)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="[2] Cyan (blue+green)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="[2] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="[2] Orange Intense (red+amber)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="[2] Warm White (rgbwa)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Scene" Name="[2] Yellow (green+red)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Scene" Name="[2] Magenta (blue+red) " Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="82" Type="Scene" Name="[2] Mint (green+uv)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="[3] Yellow (green+red)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="84" Type="Scene" Name="[3] Mint (green+uv)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="[3] Warm White (rgbwa)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,255,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="[3] Orange Intense (red+amber)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="[3] Magenta (blue+red)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,0,5,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="[3] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="[3] Cyan (blue+green)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="[3] Cold White (rgbw)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="[3] (blue+white)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="[4] Magenta (blue+red)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="[4] Orange Intense (red+amber)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="[4] Yellow (green+red) " Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="[4] Warm White (rgbwa)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="[4] Mint (green+uv)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="[4] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="[4] Cyan (blue+green)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="[4] Cold White (rgbw)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="[4] (blue+white)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="[5] Yellow (green+red)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="[5] Orange Intense (red+amber)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="[5] (blue+white)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="[5] Cold White (rgbw)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="[5] Cyan (blue+green)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="[5] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="[5] Magenta (blue+red)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="[5] Mint (green+uv)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="[5] Warm White (rgbwa)" Path="PARY/PAR [5]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="[6] Yellow (green+red)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="[6] Magenta (blue+red)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="[6] Warm White (rgbwa)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="[6] Orange Intense (red+amber)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="[6] Mint (green+uv)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="[6] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="[6] Cold White (rgbw)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="[6] Cyan (blue+green)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="[6] (blue+white)" Path="PARY/PAR [6]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="Revo ON" Path="REVO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">3,255</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="Revo OFF" Path="REVO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,3,0</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="AUTO" Path="REVO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="Pattern 01" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,17,3,255</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="Pattern 02" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,24,3,255</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="Pattern 06" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,64,3,255</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="Pattern 05" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,54,3,255</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="Pattern 04" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,44,3,255</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="Pattern 03" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,33,3,255</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="Pattern 10" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,104,3,255</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Scene" Name="Pattern 09" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,93,3,255</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="Pattern 08" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,84,3,255</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="Pattern 07" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,74,3,255</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="Pattern 19" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,194,3,255</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="Pattern 18" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,184,3,255</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="Pattern 17" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,174,3,255</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Scene" Name="Pattern 16" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,165,3,255</FixtureVal>
+  </Function>
+  <Function ID="136" Type="Scene" Name="Pattern 15" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,153,3,255</FixtureVal>
+  </Function>
+  <Function ID="137" Type="Scene" Name="Pattern 14" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,144,3,255</FixtureVal>
+  </Function>
+  <Function ID="138" Type="Scene" Name="Pattern 13" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,134,3,255</FixtureVal>
+  </Function>
+  <Function ID="139" Type="Scene" Name="Pattern 12" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,124,3,255</FixtureVal>
+  </Function>
+  <Function ID="140" Type="Scene" Name="Pattern 11" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,114,3,255</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Scene" Name="Pattern 20" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,204,3,255</FixtureVal>
+  </Function>
+  <Function ID="142" Type="Scene" Name="Pattern 21" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,214,3,255</FixtureVal>
+  </Function>
+  <Function ID="143" Type="Scene" Name="Pattern 22" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,224,3,255</FixtureVal>
+  </Function>
+  <Function ID="144" Type="Scene" Name="Pattern 23" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,234,3,255</FixtureVal>
+  </Function>
+  <Function ID="145" Type="Scene" Name="Pattern 24" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,245,3,255</FixtureVal>
+  </Function>
+  <Function ID="146" Type="Scene" Name="Pattern 25" Path="REVO/Patterny">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,69,1,252,3,255</FixtureVal>
+  </Function>
+  <Function ID="147" Type="Scene" Name="Chase 01" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,14,3,255</FixtureVal>
+  </Function>
+  <Function ID="148" Type="Scene" Name="Chase 08" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,84,3,255</FixtureVal>
+  </Function>
+  <Function ID="149" Type="Scene" Name="Chase 11" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,115,3,255</FixtureVal>
+  </Function>
+  <Function ID="150" Type="Scene" Name="Chase 10" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,104,3,255</FixtureVal>
+  </Function>
+  <Function ID="151" Type="Scene" Name="Chase 06" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,65,3,255</FixtureVal>
+  </Function>
+  <Function ID="152" Type="Scene" Name="Chase 09" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,93,3,255</FixtureVal>
+  </Function>
+  <Function ID="153" Type="Scene" Name="Chase 07" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,74,3,255</FixtureVal>
+  </Function>
+  <Function ID="154" Type="Scene" Name="Chase 05" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,54,3,255</FixtureVal>
+  </Function>
+  <Function ID="155" Type="Scene" Name="Chase 04" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,45,3,255</FixtureVal>
+  </Function>
+  <Function ID="156" Type="Scene" Name="Chase 03" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,34,3,255</FixtureVal>
+  </Function>
+  <Function ID="157" Type="Scene" Name="Chase 02" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,24,3,255</FixtureVal>
+  </Function>
+  <Function ID="158" Type="Scene" Name="Chase 13" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,134,3,255</FixtureVal>
+  </Function>
+  <Function ID="159" Type="Scene" Name="Chase 15" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,153,3,255</FixtureVal>
+  </Function>
+  <Function ID="160" Type="Scene" Name="Chase 16" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,164,3,255</FixtureVal>
+  </Function>
+  <Function ID="161" Type="Scene" Name="Chase 14" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,144,3,255</FixtureVal>
+  </Function>
+  <Function ID="162" Type="Scene" Name="Chase 12" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,125,3,255</FixtureVal>
+  </Function>
+  <Function ID="163" Type="Scene" Name="Chase 20" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,205,3,255</FixtureVal>
+  </Function>
+  <Function ID="164" Type="Scene" Name="Chase 19" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,193,3,255</FixtureVal>
+  </Function>
+  <Function ID="165" Type="Scene" Name="Chase 18" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,184,3,255</FixtureVal>
+  </Function>
+  <Function ID="166" Type="Scene" Name="Chase 17" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,174,3,255</FixtureVal>
+  </Function>
+  <Function ID="167" Type="Scene" Name="Chase 21" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,215,3,255</FixtureVal>
+  </Function>
+  <Function ID="168" Type="Scene" Name="Chase 24" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,245,3,255</FixtureVal>
+  </Function>
+  <Function ID="169" Type="Scene" Name="Chase 22" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,224,3,255</FixtureVal>
+  </Function>
+  <Function ID="170" Type="Scene" Name="Chase 23" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,234,3,255</FixtureVal>
+  </Function>
+  <Function ID="171" Type="Scene" Name="Chase 25" Path="REVO/Chase'y">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="10">0,169,1,252,3,255</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="ALL DERBY -&gt; (red+white)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="Gradient (235) (na przerwe)" Path="PARY/TRYBY WBUDOWANE Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,187,9,235</FixtureVal>
+   <FixtureVal ID="1">0,255,8,187,9,235</FixtureVal>
+   <FixtureVal ID="2">0,255,8,187,9,235</FixtureVal>
+   <FixtureVal ID="3">0,255,8,187,9,235</FixtureVal>
+   <FixtureVal ID="4">0,255,8,187,9,235</FixtureVal>
+   <FixtureVal ID="5">0,255,8,187,9,235</FixtureVal>
+  </Function>
+  <Function ID="174" Type="Scene" Name="ALL DERBY -&gt; (blue+white)" Path="DERBY/ALL DERBY -&gt; OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Scene" Name="ALL DERBY -&gt; Strobo(255)" Path="DERBY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,255</FixtureVal>
+   <FixtureVal ID="9">0,255</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="ALL DERBY -&gt; Strobo(200)" Path="DERBY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,200</FixtureVal>
+   <FixtureVal ID="9">0,200</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="ALL DERBY -&gt; Strobo(150)" Path="DERBY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,150</FixtureVal>
+   <FixtureVal ID="9">0,150</FixtureVal>
+  </Function>
+  <Function ID="178" Type="Scene" Name="ALL DERBY -&gt; Strobo(100)" Path="DERBY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,100</FixtureVal>
+   <FixtureVal ID="9">0,100</FixtureVal>
+  </Function>
+  <Function ID="179" Type="Scene" Name="{70}" Path="DERBY/Tryby wbudowane AUTO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,70</FixtureVal>
+   <FixtureVal ID="9">6,70</FixtureVal>
+  </Function>
+  <Function ID="180" Type="Scene" Name="&lt;1&gt; RED" Path="DERBY/DERBY &lt;1&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="181" Type="Scene" Name="&lt;1&gt; GREEN" Path="DERBY/DERBY &lt;1&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="&lt;1&gt; BLUE" Path="DERBY/DERBY &lt;1&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Scene" Name="&lt;1&gt; WHITE" Path="DERBY/DERBY &lt;1&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="184" Type="Scene" Name="&lt;2&gt; WHITE" Path="DERBY/DERBY &lt;2&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="&lt;2&gt; RED" Path="DERBY/DERBY &lt;2&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Scene" Name="Jump Change (255) very fast" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,133,9,255</FixtureVal>
+   <FixtureVal ID="1">0,255,8,133,9,255</FixtureVal>
+   <FixtureVal ID="2">0,255,8,133,9,255</FixtureVal>
+   <FixtureVal ID="3">0,255,8,133,9,255</FixtureVal>
+   <FixtureVal ID="4">0,255,8,133,9,255</FixtureVal>
+   <FixtureVal ID="5">0,255,8,133,9,255</FixtureVal>
+  </Function>
+  <Function ID="187" Type="Scene" Name="&lt;2&gt; GREEN" Path="DERBY/DERBY &lt;2&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Scene" Name="&lt;2&gt; BLUE" Path="DERBY/DERBY &lt;2&gt;/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Scene" Name="&lt;2&gt; (green+white)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Scene" Name="&lt;1&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,128,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="191" Type="Scene" Name="&lt;1&gt; Magenta (blue+red)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="192" Type="Scene" Name="&lt;1&gt; Cyan (blue+green)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Scene" Name="&lt;1&gt; All Colors (rgbw)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="194" Type="Scene" Name="&lt;1&gt; (blue+white)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="195" Type="Scene" Name="&lt;1&gt; (green+white)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="196" Type="Scene" Name="&lt;1&gt; (red+white)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="197" Type="Scene" Name="&lt;1&gt; Yellow (green+red)" Path="DERBY/DERBY &lt;1&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="198" Type="Scene" Name="&lt;2&gt; All Colors (rgbw)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="199" Type="Scene" Name="&lt;2&gt; (blue+white)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="&lt;2&gt; Yellow(green+red)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="&lt;2&gt; Cyan (blue+green)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Scene" Name="&lt;2&gt; Magenta (blue+red)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="203" Type="Scene" Name="&lt;2&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,0,2,128,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="204" Type="Scene" Name="&lt;2&gt; (red+white)" Path="DERBY/DERBY &lt;2&gt;/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="9">1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="205" Type="Scene" Name="Strobo(255)" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,255</FixtureVal>
+   <FixtureVal ID="1">7,255</FixtureVal>
+   <FixtureVal ID="2">7,255</FixtureVal>
+   <FixtureVal ID="3">7,255</FixtureVal>
+   <FixtureVal ID="4">7,255</FixtureVal>
+   <FixtureVal ID="5">7,255</FixtureVal>
+  </Function>
+  <Function ID="206" Type="Scene" Name="Strobo(240)" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,240</FixtureVal>
+   <FixtureVal ID="1">7,240</FixtureVal>
+   <FixtureVal ID="2">7,240</FixtureVal>
+   <FixtureVal ID="3">7,240</FixtureVal>
+   <FixtureVal ID="4">7,240</FixtureVal>
+   <FixtureVal ID="5">7,240</FixtureVal>
+  </Function>
+  <Function ID="207" Type="Scene" Name="Strobo(220)" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,220</FixtureVal>
+   <FixtureVal ID="1">7,220</FixtureVal>
+   <FixtureVal ID="2">7,220</FixtureVal>
+   <FixtureVal ID="3">7,220</FixtureVal>
+   <FixtureVal ID="4">7,220</FixtureVal>
+   <FixtureVal ID="5">7,220</FixtureVal>
+  </Function>
+  <Function ID="208" Type="Scene" Name="Strobo(200)" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,200</FixtureVal>
+   <FixtureVal ID="1">7,200</FixtureVal>
+   <FixtureVal ID="2">7,200</FixtureVal>
+   <FixtureVal ID="3">7,200</FixtureVal>
+   <FixtureVal ID="4">7,200</FixtureVal>
+   <FixtureVal ID="5">7,200</FixtureVal>
+  </Function>
+  <Function ID="209" Type="Scene" Name="Strobo(230)" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,230</FixtureVal>
+   <FixtureVal ID="1">7,230</FixtureVal>
+   <FixtureVal ID="2">7,230</FixtureVal>
+   <FixtureVal ID="3">7,230</FixtureVal>
+   <FixtureVal ID="4">7,230</FixtureVal>
+   <FixtureVal ID="5">7,230</FixtureVal>
+  </Function>
+  <Function ID="210" Type="Scene" Name="Pulse Change (255)" Path="PARY/TRYBY WBUDOWANE Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,238,9,255</FixtureVal>
+   <FixtureVal ID="1">0,255,8,238,9,255</FixtureVal>
+   <FixtureVal ID="2">0,255,8,238,9,255</FixtureVal>
+   <FixtureVal ID="3">0,255,8,238,9,255</FixtureVal>
+   <FixtureVal ID="4">0,255,8,238,9,255</FixtureVal>
+   <FixtureVal ID="5">0,255,8,238,9,255</FixtureVal>
+  </Function>
+  <Function ID="211" Type="Scene" Name="Jump Change (245) fast" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,133,9,245</FixtureVal>
+   <FixtureVal ID="1">0,255,8,133,9,245</FixtureVal>
+   <FixtureVal ID="2">0,255,8,133,9,245</FixtureVal>
+   <FixtureVal ID="3">0,255,8,133,9,245</FixtureVal>
+   <FixtureVal ID="4">0,255,8,133,9,245</FixtureVal>
+   <FixtureVal ID="5">0,255,8,133,9,245</FixtureVal>
+  </Function>
+  <Function ID="212" Type="Scene" Name="Jump Change (230) medium" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,133,9,230</FixtureVal>
+   <FixtureVal ID="1">0,255,8,133,9,230</FixtureVal>
+   <FixtureVal ID="2">0,255,8,133,9,230</FixtureVal>
+   <FixtureVal ID="3">0,255,8,133,9,230</FixtureVal>
+   <FixtureVal ID="4">0,255,8,133,9,230</FixtureVal>
+   <FixtureVal ID="5">0,255,8,133,9,230</FixtureVal>
+  </Function>
+  <Function ID="213" Type="Scene" Name="Jump Change (210) slow" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,133,9,210</FixtureVal>
+   <FixtureVal ID="1">0,255,8,133,9,210</FixtureVal>
+   <FixtureVal ID="2">0,255,8,133,9,210</FixtureVal>
+   <FixtureVal ID="3">0,255,8,133,9,210</FixtureVal>
+   <FixtureVal ID="4">0,255,8,133,9,210</FixtureVal>
+   <FixtureVal ID="5">0,255,8,133,9,210</FixtureVal>
+  </Function>
+  <Function ID="214" Type="Scene" Name="Jump Change (170) very slow" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,133,9,170</FixtureVal>
+   <FixtureVal ID="1">0,255,8,133,9,170</FixtureVal>
+   <FixtureVal ID="2">0,255,8,133,9,170</FixtureVal>
+   <FixtureVal ID="3">0,255,8,133,9,170</FixtureVal>
+   <FixtureVal ID="4">0,255,8,133,9,170</FixtureVal>
+   <FixtureVal ID="5">0,255,8,133,9,170</FixtureVal>
+  </Function>
+  <Function ID="215" Type="Scene" Name="ALL PARs zerowanie STROBO ZOSTAJE" Path="PARY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="216" Type="Scene" Name="Brak stroboskopu" Path="PARY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">7,0</FixtureVal>
+   <FixtureVal ID="1">7,0</FixtureVal>
+   <FixtureVal ID="2">7,0</FixtureVal>
+   <FixtureVal ID="3">7,0</FixtureVal>
+   <FixtureVal ID="4">7,0</FixtureVal>
+   <FixtureVal ID="5">7,0</FixtureVal>
+  </Function>
+  <Function ID="217" Type="Scene" Name="Brak stoboskopu" Path="DERBY/Stroboskopy">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,0</FixtureVal>
+   <FixtureVal ID="9">0,0</FixtureVal>
+  </Function>
+  <Function ID="218" Type="Chaser" Name="Przejście RED (pary+derby)" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">230</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">239</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">255</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">257</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">261</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">268</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">269</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">298</Step>
+  </Function>
+  <Function ID="219" Type="Chaser" Name="Przejście BLUE (pary+derby)" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">315</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">309</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">310</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">312</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">311</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">313</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">314</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">308</Step>
+  </Function>
+  <Function ID="220" Type="Chaser" Name="Przejście GREEN (pary+derby)" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">299</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">302</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">304</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">301</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">303</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">305</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">306</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">307</Step>
+  </Function>
+  <Function ID="221" Type="Chaser" Name="Przejście CYAN w Magencie (pary+derby)" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">222</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">231</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">232</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">234</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">237</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">235</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">236</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">233</Step>
+  </Function>
+  <Function ID="222" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;1&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">81</Step>
+   <Step Number="1">191</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">92</Step>
+   <Step Number="4">202</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">66</Step>
+  </Function>
+  <Function ID="223" Type="Scene" Name="ALL DERBY -&gt; Engine (128)" Path="DERBY/Engine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,128</FixtureVal>
+   <FixtureVal ID="9">5,128</FixtureVal>
+  </Function>
+  <Function ID="224" Type="Scene" Name="Zeruj Derby" Path="DERBY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="225" Type="Collection" Name="Przejście RED w (blue+white) &lt;1&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">28</Step>
+  </Function>
+  <Function ID="226" Type="Collection" Name="Zapełnianie CYAN &lt;1&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+  </Function>
+  <Function ID="227" Type="Collection" Name="Zapełnianie CYAN &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+  </Function>
+  <Function ID="228" Type="Collection" Name="Zapełnianie CYAN &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+   <Step Number="5">89</Step>
+   <Step Number="6">98</Step>
+   <Step Number="7">201</Step>
+   <Step Number="8">105</Step>
+   <Step Number="9">117</Step>
+  </Function>
+  <Function ID="229" Type="Collection" Name="Zapełnianie CYAN &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+   <Step Number="5">89</Step>
+   <Step Number="6">98</Step>
+   <Step Number="7">201</Step>
+  </Function>
+  <Function ID="230" Type="Collection" Name="Przejście RED &lt;1&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">28</Step>
+  </Function>
+  <Function ID="231" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;2&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">191</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">92</Step>
+   <Step Number="4">202</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">76</Step>
+  </Function>
+  <Function ID="232" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;3&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">92</Step>
+   <Step Number="4">202</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">192</Step>
+  </Function>
+  <Function ID="233" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;8&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">191</Step>
+   <Step Number="3">87</Step>
+   <Step Number="4">92</Step>
+   <Step Number="5">202</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">117</Step>
+  </Function>
+  <Function ID="234" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;4&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">191</Step>
+   <Step Number="3">92</Step>
+   <Step Number="4">202</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">89</Step>
+  </Function>
+  <Function ID="235" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;6&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">191</Step>
+   <Step Number="3">87</Step>
+   <Step Number="4">92</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">201</Step>
+  </Function>
+  <Function ID="236" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;7&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">191</Step>
+   <Step Number="3">87</Step>
+   <Step Number="4">92</Step>
+   <Step Number="5">202</Step>
+   <Step Number="6">105</Step>
+   <Step Number="7">111</Step>
+  </Function>
+  <Function ID="237" Type="Collection" Name="Przejście CYAN w Magencie (pary+derby) &lt;5&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście CYAN w Magencie (pary+derby)">
+   <Step Number="0">73</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">191</Step>
+   <Step Number="3">87</Step>
+   <Step Number="4">202</Step>
+   <Step Number="5">111</Step>
+   <Step Number="6">107</Step>
+   <Step Number="7">98</Step>
+  </Function>
+  <Function ID="238" Type="Collection" Name="Zapełnianie CYAN &lt;3&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+  </Function>
+  <Function ID="239" Type="Collection" Name="Przejście RED &lt;2&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">37</Step>
+  </Function>
+  <Function ID="240" Type="Collection" Name="Przejście RED w (blue+white) &lt;5&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">49</Step>
+  </Function>
+  <Function ID="241" Type="Collection" Name="Przejście RED w (blue+white) &lt;6&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">185</Step>
+  </Function>
+  <Function ID="242" Type="Collection" Name="Przejście RED w (blue+white) &lt;3&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">180</Step>
+  </Function>
+  <Function ID="243" Type="Collection" Name="Przejście RED w (blue+white) &lt;4&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">43</Step>
+  </Function>
+  <Function ID="244" Type="Collection" Name="Przejście RED w (blue+white) &lt;2&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">37</Step>
+  </Function>
+  <Function ID="245" Type="Collection" Name="Przejście RED w (blue+white) &lt;7&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">56</Step>
+  </Function>
+  <Function ID="246" Type="Collection" Name="Przejście RED w (blue+white) &lt;8&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED w (blue+white)">
+   <Step Number="0">26</Step>
+   <Step Number="1">174</Step>
+   <Step Number="2">62</Step>
+  </Function>
+  <Function ID="247" Type="Chaser" Name="Przejście RED w (blue+white) (pary+derby)" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)">
+   <Speed FadeIn="190" FadeOut="100" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">225</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">244</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">242</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">243</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">240</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">241</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">245</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">246</Step>
+  </Function>
+  <Function ID="250" Type="Collection" Name="Zapełnianie CYAN &lt;5&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+   <Step Number="5">89</Step>
+   <Step Number="6">98</Step>
+  </Function>
+  <Function ID="251" Type="Collection" Name="Zapełnianie CYAN &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+   <Step Number="5">89</Step>
+   <Step Number="6">98</Step>
+   <Step Number="7">201</Step>
+   <Step Number="8">105</Step>
+  </Function>
+  <Function ID="252" Type="Collection" Name="Zapełnianie CYAN &lt;4&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; CYAN">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">66</Step>
+   <Step Number="3">76</Step>
+   <Step Number="4">192</Step>
+   <Step Number="5">89</Step>
+  </Function>
+  <Function ID="253" Type="Chaser" Name="Zapełnianie -&gt; CYAN (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">226</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">227</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">238</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">252</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">250</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">229</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">251</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">228</Step>
+  </Function>
+  <Function ID="254" Type="Chaser" Name="Zapełnianie &lt;- YELLOW (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)" BlendMode="Additive">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">260</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">263</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">300</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">318</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">319</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">321</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">320</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">262</Step>
+  </Function>
+  <Function ID="255" Type="Collection" Name="Przejście RED &lt;3&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">180</Step>
+  </Function>
+  <Function ID="256" Type="Scene" Name="Auto OFF" Path="PARY/TRYBY WBUDOWANE Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="257" Type="Collection" Name="Przejście RED &lt;4&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">43</Step>
+  </Function>
+  <Function ID="258" Type="Chaser" Name="Podwójny Blue w Orange Intense (p) + Blue (d)" Path="Podwójny skaczący kolor (pary\derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">259</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">264</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">265</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">280</Step>
+  </Function>
+  <Function ID="259" Type="Collection" Name="Podwójny Blue w Orange Intense (p) + Blue (d) &lt;1&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Blue w Orange Intense (p) + Blue (d)">
+   <Step Number="0">3</Step>
+   <Step Number="1">23</Step>
+  </Function>
+  <Function ID="260" Type="Collection" Name="Zapełnianie YELLOW &lt;1&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">110</Step>
+  </Function>
+  <Function ID="261" Type="Collection" Name="Przejście RED &lt;5&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">49</Step>
+  </Function>
+  <Function ID="262" Type="Collection" Name="Zapełnianie YELLOW &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">197</Step>
+   <Step Number="5">83</Step>
+   <Step Number="6">94</Step>
+   <Step Number="7">200</Step>
+   <Step Number="8">101</Step>
+   <Step Number="9">110</Step>
+  </Function>
+  <Function ID="263" Type="Collection" Name="Zapełnianie YELLOW &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">101</Step>
+   <Step Number="3">110</Step>
+  </Function>
+  <Function ID="264" Type="Collection" Name="Podwójny Blue w Orange Intense (p) + Blue (d) &lt;2&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Blue w Orange Intense (p) + Blue (d)">
+   <Step Number="0">3</Step>
+   <Step Number="1">23</Step>
+   <Step Number="2">64</Step>
+   <Step Number="3">57</Step>
+  </Function>
+  <Function ID="265" Type="Collection" Name="Podwójny Blue w Orange Intense (p) + Blue (d) &lt;3&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Blue w Orange Intense (p) + Blue (d)">
+   <Step Number="0">3</Step>
+   <Step Number="1">23</Step>
+   <Step Number="2">51</Step>
+   <Step Number="3">45</Step>
+  </Function>
+  <Function ID="266" Type="Chaser" Name="Zapełnianie -&gt; GREEN w Yellow (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">277</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">276</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">274</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">273</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">275</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">270</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">271</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">272</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">267</Step>
+  </Function>
+  <Function ID="267" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;9&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+   <Step Number="5">44</Step>
+   <Step Number="6">50</Step>
+   <Step Number="7">187</Step>
+   <Step Number="8">55</Step>
+   <Step Number="9">59</Step>
+  </Function>
+  <Function ID="268" Type="Collection" Name="Przejście RED &lt;6&gt; " Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">185</Step>
+  </Function>
+  <Function ID="269" Type="Collection" Name="Przejście RED &lt;7&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">56</Step>
+  </Function>
+  <Function ID="270" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+   <Step Number="5">44</Step>
+   <Step Number="6">50</Step>
+  </Function>
+  <Function ID="271" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+   <Step Number="5">44</Step>
+   <Step Number="6">50</Step>
+   <Step Number="7">187</Step>
+  </Function>
+  <Function ID="272" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+   <Step Number="5">44</Step>
+   <Step Number="6">50</Step>
+   <Step Number="7">187</Step>
+   <Step Number="8">55</Step>
+  </Function>
+  <Function ID="273" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;4&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+  </Function>
+  <Function ID="274" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;3&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+  </Function>
+  <Function ID="275" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;5&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">38</Step>
+   <Step Number="4">181</Step>
+   <Step Number="5">44</Step>
+  </Function>
+  <Function ID="276" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+   <Step Number="2">32</Step>
+  </Function>
+  <Function ID="277" Type="Collection" Name="Zapełnianie GREEN w Yellow &lt;1&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; GREEN w Yellow">
+   <Step Number="0">8</Step>
+   <Step Number="1">24</Step>
+  </Function>
+  <Function ID="278" Type="Chaser" Name="Zapełnianie &lt;- BLUE w White (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">364</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">365</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">357</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">363</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">360</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">358</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">359</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">361</Step>
+   <Step Number="8" FadeIn="0" Hold="200" FadeOut="0">279</Step>
+  </Function>
+  <Function ID="279" Type="Collection" Name="Zapełnianie BLUE w White &lt;9&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">182</Step>
+   <Step Number="5">45</Step>
+   <Step Number="6">51</Step>
+   <Step Number="7">188</Step>
+   <Step Number="8">57</Step>
+   <Step Number="9">64</Step>
+  </Function>
+  <Function ID="280" Type="Collection" Name="Podwójny Blue w Orange Intense (p) + Blue (d) &lt;4&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Blue w Orange Intense (p) + Blue (d)">
+   <Step Number="0">3</Step>
+   <Step Number="1">23</Step>
+   <Step Number="2">39</Step>
+   <Step Number="3">30</Step>
+  </Function>
+  <Function ID="281" Type="Chaser" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też" Path="Przeplatanka (pary\derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">287</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">283</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">285</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">284</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">286</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">282</Step>
+  </Function>
+  <Function ID="282" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;6&gt;" Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+   <Step Number="3">75</Step>
+   <Step Number="4">193</Step>
+   <Step Number="5">90</Step>
+   <Step Number="6">99</Step>
+   <Step Number="7">198</Step>
+   <Step Number="8">104</Step>
+   <Step Number="9">116</Step>
+  </Function>
+  <Function ID="283" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;2&gt;" Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+   <Step Number="3">116</Step>
+  </Function>
+  <Function ID="284" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;4&gt;" Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+   <Step Number="3">75</Step>
+   <Step Number="4">193</Step>
+   <Step Number="5">198</Step>
+   <Step Number="6">104</Step>
+   <Step Number="7">116</Step>
+  </Function>
+  <Function ID="285" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;3&gt;" Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+   <Step Number="3">75</Step>
+   <Step Number="4">193</Step>
+   <Step Number="5">116</Step>
+  </Function>
+  <Function ID="286" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;5&gt; " Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+   <Step Number="3">75</Step>
+   <Step Number="4">193</Step>
+   <Step Number="5">90</Step>
+   <Step Number="6">198</Step>
+   <Step Number="7">104</Step>
+   <Step Number="8">116</Step>
+  </Function>
+  <Function ID="287" Type="Collection" Name="Przeplatanka Cold White w Blue (p) derby po uderzeniu też &lt;1&gt; " Path="Przeplatanka (pary\derby)/Przeplatanka Cold White w Blue (p) derby po uderzeniu też">
+   <Step Number="0">3</Step>
+   <Step Number="1">5</Step>
+   <Step Number="2">71</Step>
+  </Function>
+  <Function ID="288" Type="Chaser" Name="Zapełnianie -&gt; MAGENTA przez Red (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">295</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">296</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">294</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">293</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">297</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">290</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">291</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">292</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">289</Step>
+  </Function>
+  <Function ID="289" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;9&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">107</Step>
+   <Step Number="9">111</Step>
+  </Function>
+  <Function ID="290" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">185</Step>
+  </Function>
+  <Function ID="291" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">56</Step>
+  </Function>
+  <Function ID="292" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">107</Step>
+   <Step Number="9">62</Step>
+  </Function>
+  <Function ID="293" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;4&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">43</Step>
+  </Function>
+  <Function ID="294" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;3&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">180</Step>
+  </Function>
+  <Function ID="295" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;1&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">28</Step>
+  </Function>
+  <Function ID="296" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">37</Step>
+  </Function>
+  <Function ID="297" Type="Collection" Name="Zapełnianie MAGENTA przez Red &lt;5&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie -&gt; MAGENTA przez Red">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">49</Step>
+  </Function>
+  <Function ID="298" Type="Collection" Name="Przejście RED &lt;8&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście RED (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">62</Step>
+  </Function>
+  <Function ID="299" Type="Collection" Name="Przejście GREEN &lt;1&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">32</Step>
+  </Function>
+  <Function ID="300" Type="Collection" Name="Zapełnianie YELLOW &lt;3&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">200</Step>
+   <Step Number="3">101</Step>
+   <Step Number="4">110</Step>
+  </Function>
+  <Function ID="301" Type="Collection" Name="Przejście GREEN &lt;4&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">44</Step>
+  </Function>
+  <Function ID="302" Type="Collection" Name="Przejście GREEN &lt;2&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">38</Step>
+  </Function>
+  <Function ID="303" Type="Collection" Name="Przejście GREEN &lt;5&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">50</Step>
+  </Function>
+  <Function ID="304" Type="Collection" Name="Przejście GREEN &lt;3&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">181</Step>
+  </Function>
+  <Function ID="305" Type="Collection" Name="Przejście GREEN &lt;6&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">187</Step>
+  </Function>
+  <Function ID="306" Type="Collection" Name="Przejście GREEN &lt;7&gt; " Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">55</Step>
+  </Function>
+  <Function ID="307" Type="Collection" Name="Przejście GREEN &lt;8&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście GREEN (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">59</Step>
+  </Function>
+  <Function ID="308" Type="Collection" Name="Przejście BLUE &lt;8&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">64</Step>
+  </Function>
+  <Function ID="309" Type="Collection" Name="Przejście BLUE &lt;2&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">39</Step>
+  </Function>
+  <Function ID="310" Type="Collection" Name="Przejście BLUE &lt;3&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">182</Step>
+  </Function>
+  <Function ID="311" Type="Collection" Name="Przejście BLUE &lt;5&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">51</Step>
+  </Function>
+  <Function ID="312" Type="Collection" Name="Przejście BLUE &lt;4&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">45</Step>
+  </Function>
+  <Function ID="313" Type="Collection" Name="Przejście BLUE &lt;6&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">188</Step>
+  </Function>
+  <Function ID="314" Type="Collection" Name="Przejście BLUE &lt;7&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">57</Step>
+  </Function>
+  <Function ID="315" Type="Collection" Name="Przejście BLUE &lt;1&gt;" Path="Przejścia pojedyńczego koloru w jednolitym tle (pary+derby)/Przejście BLUE (pary+derby)">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+  </Function>
+  <Function ID="316" Type="Chaser" Name="Zapełnianie &lt;- CYAN BLUEING przez Green (pary+derby)" Path="Przejście koloru zapełniającego (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="200" FadeOut="0">331</Step>
+   <Step Number="1" FadeIn="0" Hold="200" FadeOut="0">330</Step>
+   <Step Number="2" FadeIn="0" Hold="200" FadeOut="0">327</Step>
+   <Step Number="3" FadeIn="0" Hold="200" FadeOut="0">322</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">323</Step>
+   <Step Number="5" FadeIn="0" Hold="200" FadeOut="0">317</Step>
+   <Step Number="6" FadeIn="0" Hold="200" FadeOut="0">324</Step>
+   <Step Number="7" FadeIn="0" Hold="200" FadeOut="0">326</Step>
+   <Step Number="8" FadeIn="0" Hold="200" FadeOut="0">325</Step>
+  </Function>
+  <Function ID="317" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">181</Step>
+   <Step Number="3">88</Step>
+   <Step Number="4">97</Step>
+   <Step Number="5">203</Step>
+   <Step Number="6">106</Step>
+   <Step Number="7">115</Step>
+  </Function>
+  <Function ID="318" Type="Collection" Name="Zapełnianie YELLOW &lt;4&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">94</Step>
+   <Step Number="3">200</Step>
+   <Step Number="4">101</Step>
+   <Step Number="5">110</Step>
+  </Function>
+  <Function ID="319" Type="Collection" Name="Zapełnianie YELLOW &lt;5&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">83</Step>
+   <Step Number="3">94</Step>
+   <Step Number="4">200</Step>
+   <Step Number="5">101</Step>
+   <Step Number="6">110</Step>
+  </Function>
+  <Function ID="320" Type="Collection" Name="Zapełnianie YELLOW &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">80</Step>
+   <Step Number="3">197</Step>
+   <Step Number="4">83</Step>
+   <Step Number="5">94</Step>
+   <Step Number="6">200</Step>
+   <Step Number="7">101</Step>
+   <Step Number="8">110</Step>
+  </Function>
+  <Function ID="321" Type="Collection" Name="Zapełnianie YELLOW &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- YELLOW">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">197</Step>
+   <Step Number="3">83</Step>
+   <Step Number="4">94</Step>
+   <Step Number="5">200</Step>
+   <Step Number="6">101</Step>
+   <Step Number="7">110</Step>
+  </Function>
+  <Function ID="322" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;4&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">50</Step>
+   <Step Number="3">203</Step>
+   <Step Number="4">106</Step>
+   <Step Number="5">115</Step>
+  </Function>
+  <Function ID="323" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;5&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">44</Step>
+   <Step Number="3">97</Step>
+   <Step Number="4">203</Step>
+   <Step Number="5">106</Step>
+   <Step Number="6">115</Step>
+  </Function>
+  <Function ID="324" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">38</Step>
+   <Step Number="3">190</Step>
+   <Step Number="4">88</Step>
+   <Step Number="5">97</Step>
+   <Step Number="6">203</Step>
+   <Step Number="7">106</Step>
+   <Step Number="8">115</Step>
+  </Function>
+  <Function ID="325" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;9&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">68</Step>
+   <Step Number="3">77</Step>
+   <Step Number="4">190</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">97</Step>
+   <Step Number="7">203</Step>
+   <Step Number="8">106</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="326" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">32</Step>
+   <Step Number="3">77</Step>
+   <Step Number="4">190</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">97</Step>
+   <Step Number="7">203</Step>
+   <Step Number="8">106</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="327" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;3&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">187</Step>
+   <Step Number="3">106</Step>
+   <Step Number="4">115</Step>
+  </Function>
+  <Function ID="328" Type="Scene" Name="(255)" Path="DERBY/Tryby wbudowane AUTO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,255</FixtureVal>
+   <FixtureVal ID="9">6,255</FixtureVal>
+  </Function>
+  <Function ID="329" Type="Scene" Name="ALL DERBY -&gt; Engine OFF" Path="DERBY/Engine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,0</FixtureVal>
+   <FixtureVal ID="9">5,0</FixtureVal>
+  </Function>
+  <Function ID="330" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">55</Step>
+   <Step Number="3">115</Step>
+  </Function>
+  <Function ID="331" Type="Collection" Name="Zapełnianie CYAN BLUEING przez Green &lt;1&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- CYAN BLUEING przez Green">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">59</Step>
+  </Function>
+  <Function ID="332" Type="Scene" Name="{128}" Path="DERBY/Tryby wbudowane AUTO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,128</FixtureVal>
+   <FixtureVal ID="9">6,128</FixtureVal>
+  </Function>
+  <Function ID="333" Type="Chaser" Name="Podwójny Orange Intense w UV (p) + Red (d)" Path="Podwójny skaczący kolor (pary\derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">334</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">335</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">336</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">337</Step>
+  </Function>
+  <Function ID="334" Type="Collection" Name="Podwójny Orange Intense w UV (p) + Red (d) &lt;1&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Orange Intense w UV (p) + Red (d)">
+   <Step Number="0">17</Step>
+   <Step Number="1">224</Step>
+  </Function>
+  <Function ID="335" Type="Collection" Name="Podwójny Orange Intense w UV (p) + Red (d) &lt;2&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Orange Intense w UV (p) + Red (d)">
+   <Step Number="0">17</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">67</Step>
+   <Step Number="3">78</Step>
+   <Step Number="4">180</Step>
+  </Function>
+  <Function ID="336" Type="Collection" Name="Podwójny Orange Intense w UV (p) + Red (d) &lt;3&gt; " Path="Podwójny skaczący kolor (pary\derby)/Podwójny Orange Intense w UV (p) + Red (d)">
+   <Step Number="0">17</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">86</Step>
+   <Step Number="3">93</Step>
+   <Step Number="4">0</Step>
+  </Function>
+  <Function ID="337" Type="Collection" Name="Podwójny Orange Intense w UV (p) + Red (d) &lt;4&gt; " Path="Podwójny skaczący kolor (pary\derby)/Podwójny Orange Intense w UV (p) + Red (d)">
+   <Step Number="0">17</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">185</Step>
+   <Step Number="3">102</Step>
+   <Step Number="4">113</Step>
+  </Function>
+  <Function ID="338" Type="Chaser" Name="Podwójny Mint w Amber (p) + Cyan (d)" Path="Podwójny skaczący kolor (pary\derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>PingPong</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">339</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">342</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">341</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">340</Step>
+   <Step Number="4" FadeIn="0" Hold="200" FadeOut="0">339</Step>
+  </Function>
+  <Function ID="339" Type="Collection" Name="Podwójny Mint w Amber (p) + Cyan (d) &lt;1&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Mint w Amber (p) + Cyan (d)">
+   <Step Number="0">15</Step>
+   <Step Number="1">9</Step>
+  </Function>
+  <Function ID="340" Type="Collection" Name="Podwójny Mint w Amber (p) + Cyan (d) &lt;4&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Mint w Amber (p) + Cyan (d)">
+   <Step Number="0">15</Step>
+   <Step Number="1">9</Step>
+   <Step Number="2">108</Step>
+   <Step Number="3">114</Step>
+  </Function>
+  <Function ID="341" Type="Collection" Name="Podwójny Mint w Amber (p) + Cyan (d) &lt;3&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Mint w Amber (p) + Cyan (d)">
+   <Step Number="0">15</Step>
+   <Step Number="1">9</Step>
+   <Step Number="2">84</Step>
+   <Step Number="3">96</Step>
+  </Function>
+  <Function ID="342" Type="Collection" Name="Podwójny Mint w Amber (p) + Cyan (d) &lt;2&gt;" Path="Podwójny skaczący kolor (pary\derby)/Podwójny Mint w Amber (p) + Cyan (d)">
+   <Step Number="0">15</Step>
+   <Step Number="1">9</Step>
+   <Step Number="2">72</Step>
+   <Step Number="3">82</Step>
+  </Function>
+  <Function ID="343" Type="Chaser" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |" Path="Schodzące z 2 stron (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">346</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">345</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">348</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">344</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">349</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">350</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">351</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">352</Step>
+  </Function>
+  <Function ID="344" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;4&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">87</Step>
+   <Step Number="6">100</Step>
+   <Step Number="7">199</Step>
+   <Step Number="8">103</Step>
+   <Step Number="9">118</Step>
+  </Function>
+  <Function ID="345" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;2&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">103</Step>
+   <Step Number="5">118</Step>
+  </Function>
+  <Function ID="346" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;1&gt; " Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">118</Step>
+  </Function>
+  <Function ID="347" Type="Scene" Name="Auto NULL" Path="DERBY/Tryby wbudowane AUTO">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">6,0</FixtureVal>
+   <FixtureVal ID="9">6,0</FixtureVal>
+  </Function>
+  <Function ID="348" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;3&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">199</Step>
+   <Step Number="6">103</Step>
+   <Step Number="7">118</Step>
+  </Function>
+  <Function ID="349" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;5&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">191</Step>
+   <Step Number="5">91</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">199</Step>
+   <Step Number="8">103</Step>
+   <Step Number="9">118</Step>
+  </Function>
+  <Function ID="350" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;6&gt; " Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">81</Step>
+   <Step Number="4">194</Step>
+   <Step Number="5">91</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">103</Step>
+   <Step Number="9">118</Step>
+  </Function>
+  <Function ID="351" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;7&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">73</Step>
+   <Step Number="3">74</Step>
+   <Step Number="4">194</Step>
+   <Step Number="5">91</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">107</Step>
+   <Step Number="9">118</Step>
+  </Function>
+  <Function ID="352" Type="Collection" Name="Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) | &lt;8&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Magenta-&gt; | &lt;- (blue+white) |">
+   <Step Number="0">215</Step>
+   <Step Number="1">224</Step>
+   <Step Number="2">69</Step>
+   <Step Number="3">74</Step>
+   <Step Number="4">194</Step>
+   <Step Number="5">91</Step>
+   <Step Number="6">92</Step>
+   <Step Number="7">202</Step>
+   <Step Number="8">107</Step>
+   <Step Number="9">111</Step>
+  </Function>
+  <Function ID="353" Type="Chaser" Name="Wszytskie chasery">
+   <Speed FadeIn="0" FadeOut="0" Duration="4000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="7000" FadeOut="0">281</Step>
+   <Step Number="1" FadeIn="0" Hold="7000" FadeOut="0">218</Step>
+   <Step Number="2" FadeIn="0" Hold="7000" FadeOut="0">316</Step>
+   <Step Number="3" FadeIn="0" Hold="7000" FadeOut="0">288</Step>
+   <Step Number="4" FadeIn="0" Hold="7000" FadeOut="0">220</Step>
+   <Step Number="5" FadeIn="0" Hold="7000" FadeOut="0">258</Step>
+   <Step Number="6" FadeIn="0" Hold="7000" FadeOut="0">375</Step>
+   <Step Number="7" FadeIn="0" Hold="7000" FadeOut="0">343</Step>
+   <Step Number="8" FadeIn="0" Hold="7000" FadeOut="0">333</Step>
+   <Step Number="9" FadeIn="0" Hold="7000" FadeOut="0">247</Step>
+   <Step Number="10" FadeIn="0" Hold="7000" FadeOut="0">219</Step>
+   <Step Number="11" FadeIn="0" Hold="7000" FadeOut="0">221</Step>
+   <Step Number="12" FadeIn="0" Hold="7000" FadeOut="0">278</Step>
+   <Step Number="13" FadeIn="0" Hold="7000" FadeOut="0">266</Step>
+   <Step Number="14" FadeIn="0" Hold="7000" FadeOut="0">254</Step>
+   <Step Number="15" FadeIn="0" Hold="7000" FadeOut="0">253</Step>
+   <Step Number="16" FadeIn="0" Hold="7000" FadeOut="0">338</Step>
+   <Step Number="17" FadeIn="0" Hold="7000" FadeOut="0">366</Step>
+  </Function>
+  <Function ID="354" Type="Collection" Name="All Pars&amp;Derby -&gt; Cold White (rgbw)">
+   <Step Number="0">22</Step>
+   <Step Number="1">7</Step>
+  </Function>
+  <Function ID="355" Type="Scene" Name="ALL Pars&amp;Derby -&gt; Cold White (rgbw) / White" Path="WSZYSTKIE ŚWIATŁA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="9">1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="357" Type="Collection" Name="Zapełnianie BLUE w White &lt;3&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">57</Step>
+   <Step Number="3">64</Step>
+  </Function>
+  <Function ID="358" Type="Collection" Name="Zapełnianie BLUE w White &lt;6&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">45</Step>
+   <Step Number="3">51</Step>
+   <Step Number="4">188</Step>
+   <Step Number="5">57</Step>
+   <Step Number="6">64</Step>
+  </Function>
+  <Function ID="359" Type="Collection" Name="Zapełnianie BLUE w White &lt;7&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">182</Step>
+   <Step Number="3">45</Step>
+   <Step Number="4">51</Step>
+   <Step Number="5">188</Step>
+   <Step Number="6">57</Step>
+   <Step Number="7">64</Step>
+  </Function>
+  <Function ID="360" Type="Collection" Name="Zapełnianie BLUE w White &lt;5&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">51</Step>
+   <Step Number="3">188</Step>
+   <Step Number="4">57</Step>
+   <Step Number="5">64</Step>
+  </Function>
+  <Function ID="361" Type="Collection" Name="Zapełnianie BLUE w White &lt;8&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">39</Step>
+   <Step Number="3">182</Step>
+   <Step Number="4">45</Step>
+   <Step Number="5">51</Step>
+   <Step Number="6">188</Step>
+   <Step Number="7">57</Step>
+   <Step Number="8">64</Step>
+  </Function>
+  <Function ID="362" Type="Scene" Name="ALL Pars&amp;Derby -&gt; Orange Intense (red+amber) / Red" Path="WSZYSTKIE ŚWIATŁA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">1,255,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="9">1,255,2,0,3,0,4,0</FixtureVal>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="363" Type="Collection" Name="Zapełnianie BLUE w White &lt;4&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">188</Step>
+   <Step Number="3">57</Step>
+   <Step Number="4">64</Step>
+  </Function>
+  <Function ID="364" Type="Collection" Name="Zapełnianie BLUE w White &lt;1&gt; " Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+  </Function>
+  <Function ID="365" Type="Collection" Name="Zapełnianie BLUE w White &lt;2&gt;" Path="Przejście koloru zapełniającego (pary+derby)/Zapełnianie &lt;- BLUE w White">
+   <Step Number="0">6</Step>
+   <Step Number="1">16</Step>
+   <Step Number="2">64</Step>
+  </Function>
+  <Function ID="366" Type="Chaser" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red |" Path="Schodzące z 2 stron (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">369</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">368</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">370</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">367</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">371</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">373</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">374</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">372</Step>
+  </Function>
+  <Function ID="367" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;4&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">182</Step>
+   <Step Number="5">45</Step>
+   <Step Number="6">49</Step>
+   <Step Number="7">185</Step>
+   <Step Number="8">56</Step>
+   <Step Number="9">62</Step>
+  </Function>
+  <Function ID="368" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;2&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">56</Step>
+   <Step Number="5">62</Step>
+  </Function>
+  <Function ID="369" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;1&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">62</Step>
+  </Function>
+  <Function ID="370" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;3&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">182</Step>
+   <Step Number="5">185</Step>
+   <Step Number="6">56</Step>
+   <Step Number="7">62</Step>
+  </Function>
+  <Function ID="371" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;5&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">182</Step>
+   <Step Number="5">43</Step>
+   <Step Number="6">51</Step>
+   <Step Number="7">185</Step>
+   <Step Number="8">56</Step>
+   <Step Number="9">62</Step>
+  </Function>
+  <Function ID="372" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;8&gt; " Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">28</Step>
+   <Step Number="3">37</Step>
+   <Step Number="4">180</Step>
+   <Step Number="5">43</Step>
+   <Step Number="6">51</Step>
+   <Step Number="7">188</Step>
+   <Step Number="8">57</Step>
+   <Step Number="9">64</Step>
+  </Function>
+  <Function ID="373" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;6&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">39</Step>
+   <Step Number="4">180</Step>
+   <Step Number="5">43</Step>
+   <Step Number="6">51</Step>
+   <Step Number="7">188</Step>
+   <Step Number="8">56</Step>
+   <Step Number="9">62</Step>
+  </Function>
+  <Function ID="374" Type="Collection" Name="Schodzące z 2 stron | Blue -&gt; | &lt;- Red | &lt;7&gt; " Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Blue -&gt; | &lt;- Red |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">30</Step>
+   <Step Number="3">37</Step>
+   <Step Number="4">180</Step>
+   <Step Number="5">43</Step>
+   <Step Number="6">51</Step>
+   <Step Number="7">188</Step>
+   <Step Number="8">57</Step>
+   <Step Number="9">62</Step>
+  </Function>
+  <Function ID="375" Type="Chaser" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |" Path="Schodzące z 2 stron (pary+derby)">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">378</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">377</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">379</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">376</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">380</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">381</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">382</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">383</Step>
+  </Function>
+  <Function ID="376" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;4&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">197</Step>
+   <Step Number="5">83</Step>
+   <Step Number="6">97</Step>
+   <Step Number="7">203</Step>
+   <Step Number="8">106</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="377" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;2&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">106</Step>
+   <Step Number="5">115</Step>
+  </Function>
+  <Function ID="378" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;1&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">115</Step>
+  </Function>
+  <Function ID="379" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;3&gt; " Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">197</Step>
+   <Step Number="5">203</Step>
+   <Step Number="6">106</Step>
+   <Step Number="7">115</Step>
+  </Function>
+  <Function ID="380" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;5&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">197</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">94</Step>
+   <Step Number="7">203</Step>
+   <Step Number="8">106</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="381" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;6&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">80</Step>
+   <Step Number="4">190</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">94</Step>
+   <Step Number="7">200</Step>
+   <Step Number="8">106</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="382" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;7&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">65</Step>
+   <Step Number="3">77</Step>
+   <Step Number="4">190</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">94</Step>
+   <Step Number="7">200</Step>
+   <Step Number="8">101</Step>
+   <Step Number="9">115</Step>
+  </Function>
+  <Function ID="383" Type="Collection" Name="Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing | &lt;8&gt;" Path="Schodzące z 2 stron (pary+derby)/Schodzące z 2 stron | Yelow -&gt; | &lt;- Cyan Blueing |">
+   <Step Number="0">224</Step>
+   <Step Number="1">215</Step>
+   <Step Number="2">68</Step>
+   <Step Number="3">77</Step>
+   <Step Number="4">190</Step>
+   <Step Number="5">88</Step>
+   <Step Number="6">94</Step>
+   <Step Number="7">200</Step>
+   <Step Number="8">101</Step>
+   <Step Number="9">110</Step>
+  </Function>
+  <Function ID="384" Type="Scene" Name="ALL DERBY -&gt; Engine (210)" Path="DERBY/Engine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,210</FixtureVal>
+   <FixtureVal ID="9">5,210</FixtureVal>
+  </Function>
+  <Function ID="385" Type="Scene" Name="ALL DERBY -&gt; Engine (160)" Path="DERBY/Engine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,160</FixtureVal>
+   <FixtureVal ID="9">5,160</FixtureVal>
+  </Function>
+  <Function ID="386" Type="Scene" Name="ALL DERBY -&gt; Engine (255)" Path="DERBY/Engine">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="8">5,255</FixtureVal>
+   <FixtureVal ID="9">5,255</FixtureVal>
+  </Function>
+  <Function ID="387" Type="Scene" Name="ALL PARs -&gt;  Cold White (rgbw) DERBY OFF" Path="WSZYSTKIE ŚWIATŁA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="388" Type="Scene" Name="ALL PARs -&gt; Orange Intense (red+amber) DERBY OFF" Path="WSZYSTKIE ŚWIATŁA">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="5">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="8">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+   <FixtureVal ID="9">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>C:/Users/MC DJ/Desktop/DSC_0120.JPG</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="int main()" ID="0">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="0" Width="730" Height="595"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <CueList Caption="Cue list" ID="1">
+     <WindowState Visible="True" X="0" Y="40" Width="490" Height="535"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>353</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Crossfade Linked="True"/>
+     <Next>
+      <Key>S</Key>
+     </Next>
+     <Previous>
+      <Key>A</Key>
+     </Previous>
+     <Playback>
+      <Key>Space</Key>
+     </Playback>
+     <Stop>
+      <Key>Z</Key>
+     </Stop>
+     <SlidersMode>Crossfade</SlidersMode>
+    </CueList>
+    <Frame Caption="Pary AUTO" ID="3">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="490" Y="35" Width="235" Height="265"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Gradient (235) (na przerwe)" ID="4" Icon="">
+      <WindowState Visible="True" X="0" Y="40" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="173"/>
+      <Action>Toggle</Action>
+      <Key>Q</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Gradient (255)" ID="5" Icon="">
+      <WindowState Visible="True" X="115" Y="40" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="29"/>
+      <Action>Toggle</Action>
+      <Key>W</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Pulse Change (255)" ID="2" Icon="">
+      <WindowState Visible="True" X="0" Y="95" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="210"/>
+      <Action>Toggle</Action>
+      <Key>E</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Jump Change (245) fast" ID="6" Icon="">
+      <WindowState Visible="True" X="0" Y="150" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="211"/>
+      <Action>Toggle</Action>
+      <Key>4</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Jump Change (255) very fast" ID="7" Icon="">
+      <WindowState Visible="True" X="115" Y="95" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="186"/>
+      <Action>Toggle</Action>
+      <Key>5</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Jump Change (210) slow" ID="8" Icon="">
+      <WindowState Visible="True" X="0" Y="205" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="213"/>
+      <Action>Toggle</Action>
+      <Key>2</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Jump Change (170) very slow" ID="9" Icon="">
+      <WindowState Visible="True" X="115" Y="205" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="214"/>
+      <Action>Toggle</Action>
+      <Key>1</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Jump Change (230) medium" ID="10" Icon="">
+      <WindowState Visible="True" X="115" Y="150" Width="115" Height="55"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="212"/>
+      <Action>Toggle</Action>
+      <Key>3</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </Frame>
+    <Frame Caption="Pary +/- Derby Strobo" ID="19">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="490" Y="305" Width="240" Height="280"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="ALL PARs -&gt;  Cold White (rgbw) DERBY OFF" ID="21" Icon="">
+      <WindowState Visible="True" X="5" Y="40" Width="105" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="387"/>
+      <Action>Toggle</Action>
+      <Key>Num+-</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ALL PARs -&gt; Orange Intense (red+amber) DERBY OFF" ID="22" Icon="">
+      <WindowState Visible="True" X="5" Y="100" Width="105" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="388"/>
+      <Action>Toggle</Action>
+      <Key>Num+/</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ALL Pars&amp;Derby -&gt; Cold White (rgbw)" ID="23" Icon="">
+      <WindowState Visible="True" X="110" Y="40" Width="120" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="355"/>
+      <Action>Toggle</Action>
+      <Key>Num++</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="ALL Pars&amp;Derby -&gt; Orange Intense (red+amber) / Red" ID="20" Icon="">
+      <WindowState Visible="True" X="110" Y="100" Width="120" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="362"/>
+      <Action>Toggle</Action>
+      <Key>Num+*</Key>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </Frame>
+   </SoloFrame>
+   <SoloFrame Caption="REVO III" ID="11">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1125" Y="0" Width="185" Height="180"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Revo OFF" ID="12" Icon="">
+     <WindowState Visible="True" X="0" Y="110" Width="170" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="120"/>
+     <Action>Toggle</Action>
+     <Key>]</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Revo AUTO" ID="13" Icon="">
+     <WindowState Visible="True" X="0" Y="40" Width="170" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="121"/>
+     <Action>Toggle</Action>
+     <Key>\</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="Derby Auto" ID="14">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="730" Y="355" Width="250" Height="240"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Auto NULL" ID="37" Icon="">
+     <WindowState Visible="True" X="10" Y="175" Width="185" Height="40"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="347"/>
+     <Action>Toggle</Action>
+     <Key>P</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="{128}" ID="38" Icon="">
+     <WindowState Visible="True" X="105" Y="110" Width="90" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="332"/>
+     <Action>Toggle</Action>
+     <Key>L</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(255)" ID="39" Icon="">
+     <WindowState Visible="True" X="10" Y="110" Width="95" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="328"/>
+     <Action>Toggle</Action>
+     <Key>K</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="{70}" ID="40" Icon="">
+     <WindowState Visible="True" X="105" Y="45" Width="90" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="179"/>
+     <Action>Toggle</Action>
+     <Key>O</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(220)" ID="41" Icon="">
+     <WindowState Visible="True" X="10" Y="45" Width="95" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="14"/>
+     <Action>Toggle</Action>
+     <Key>I</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SpeedDial Caption="One Step" ID="17">
+    <WindowState Visible="True" X="730" Y="180" Width="200" Height="175"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>200</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">288</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">266</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">253</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">254</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">316</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">278</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">375</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">343</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">366</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">281</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">247</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">218</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">220</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">221</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">219</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">333</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">338</Function>
+    <Function FadeIn="0" FadeOut="0" Duration="6">258</Function>
+    <Preset ID="16">
+     <Name>200ms</Name>
+     <Value>200</Value>
+     <Key>F</Key>
+    </Preset>
+    <Preset ID="17">
+     <Name>400ms</Name>
+     <Value>400</Value>
+     <Key>G</Key>
+    </Preset>
+    <Preset ID="18">
+     <Name>600ms</Name>
+     <Value>600</Value>
+     <Key>H</Key>
+    </Preset>
+    <Preset ID="19">
+     <Name>800ms</Name>
+     <Value>800</Value>
+     <Key>J</Key>
+    </Preset>
+   </SpeedDial>
+   <SpeedDial Caption="One Chase" ID="18">
+    <WindowState Visible="True" X="730" Y="5" Width="220" Height="170"/>
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <Visibility>127</Visibility>
+    <AbsoluteValue Minimum="0" Maximum="10000"/>
+    <Time>4000</Time>
+    <Function FadeIn="0" FadeOut="0" Duration="6">353</Function>
+    <Preset ID="16">
+     <Name>1s</Name>
+     <Value>1000</Value>
+     <Key>C</Key>
+    </Preset>
+    <Preset ID="17">
+     <Name>2s</Name>
+     <Value>2000</Value>
+     <Key>V</Key>
+    </Preset>
+    <Preset ID="18">
+     <Name>4s</Name>
+     <Value>4000</Value>
+     <Key>B</Key>
+    </Preset>
+    <Preset ID="19">
+     <Name>5s</Name>
+     <Value>5000</Value>
+     <Key>N</Key>
+    </Preset>
+    <Preset ID="20">
+     <Name>7s</Name>
+     <Value>7000</Value>
+     <Key>M</Key>
+    </Preset>
+   </SpeedDial>
+   <SoloFrame Caption="Derby ENGINE" ID="24">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="1125" Y="180" Width="185" Height="325"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="ALL DERBY -&gt; Engine (128)" ID="25" Icon="">
+     <WindowState Visible="True" X="5" Y="205" Width="110" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="223"/>
+     <Action>Toggle</Action>
+     <Key>6</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Engine OFF" ID="26" Icon="">
+     <WindowState Visible="True" X="5" Y="260" Width="110" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="329"/>
+     <Action>Toggle</Action>
+     <Key>0</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Engine (160)" ID="27" Icon="">
+     <WindowState Visible="True" X="5" Y="150" Width="110" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="385"/>
+     <Action>Toggle</Action>
+     <Key>7</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Engine (210)" ID="28" Icon="">
+     <WindowState Visible="True" X="5" Y="95" Width="110" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="384"/>
+     <Action>Toggle</Action>
+     <Key>8</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Engine (255)" ID="29" Icon="">
+     <WindowState Visible="True" X="5" Y="40" Width="110" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="386"/>
+     <Action>Toggle</Action>
+     <Key>9</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Clock Type="Countdown" Hours="8" Minutes="0" Seconds="0" Caption="" ID="15">
+    <WindowState Visible="True" X="985" Y="10" Width="135" Height="75"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4278895176</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <PlayPause/>
+    <Reset/>
+   </Clock>
+   <SoloFrame Caption="D STROB" ID="44">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="980" Y="280" Width="145" Height="315"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="ALL DERBY -&gt; Strobo(200)" ID="45" Icon="">
+     <WindowState Visible="True" X="0" Y="90" Width="135" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="176"/>
+     <Action>Toggle</Action>
+     <Key>Num+8</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Strobo(100)" ID="46" Icon="">
+     <WindowState Visible="True" X="0" Y="200" Width="135" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="178"/>
+     <Action>Toggle</Action>
+     <Key>Num+6</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Brak stoboskopu" ID="47" Icon="">
+     <WindowState Visible="True" X="0" Y="255" Width="135" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="217"/>
+     <Action>Toggle</Action>
+     <Key>Num+,</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Strobo(150)" ID="48" Icon="">
+     <WindowState Visible="True" X="0" Y="145" Width="135" Height="55"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="177"/>
+     <Action>Toggle</Action>
+     <Key>Num+7</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="ALL DERBY -&gt; Strobo(255)" ID="49" Icon="">
+     <WindowState Visible="True" X="0" Y="40" Width="135" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="175"/>
+     <Action>Toggle</Action>
+     <Key>Num+9</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="" ID="30">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="930" Y="165" Width="200" Height="115"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="(255)" ID="31" Icon="">
+     <WindowState Visible="True" X="135" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="205"/>
+     <Action>Toggle</Action>
+     <Key>Num+5</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(240)" ID="32" Icon="">
+     <WindowState Visible="True" X="135" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="206"/>
+     <Action>Toggle</Action>
+     <Key>Num+4</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(230)" ID="33" Icon="">
+     <WindowState Visible="True" X="70" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="209"/>
+     <Action>Toggle</Action>
+     <Key>Num+3</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(220)" ID="34" Icon="">
+     <WindowState Visible="True" X="70" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="207"/>
+     <Action>Toggle</Action>
+     <Key>Num+2</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="(200)" ID="35" Icon="">
+     <WindowState Visible="True" X="5" Y="55" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="208"/>
+     <Action>Toggle</Action>
+     <Key>Num+1</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="BRAK" ID="36" Icon="">
+     <WindowState Visible="True" X="5" Y="5" Width="50" Height="50"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="216"/>
+     <Action>Toggle</Action>
+     <Key>Num+0</Key>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

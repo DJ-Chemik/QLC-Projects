@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>DJ Chemik</Author>
+ </Creator>
+ <Manufacturer>Tomshine</Manufacturer>
+ <Model>Mini Gobo Moving Head 80W SPOT</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="PAN">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255">Pan (Horizontal)</Capability>
+ </Channel>
+ <Channel Name="PAN Fine - Korekta Pan">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="255">Pan Fine</Capability>
+ </Channel>
+ <Channel Name="TILT">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt (Vertical)</Capability>
+ </Channel>
+ <Channel Name="TILT Fine - Korekta Tilt">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="255">Tilt Fine</Capability>
+ </Channel>
+ <Channel Name="PAN/TILT Speed">
+  <Group Byte="1">Speed</Group>
+  <Capability Min="0" Max="255">Reaction Speed</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Strobo">
+  <Group Byte="1">Shutter</Group>
+  <Capability Min="0" Max="7">OFF</Capability>
+  <Capability Min="8" Max="131">Frequency</Capability>
+  <Capability Min="132" Max="139">OFF</Capability>
+  <Capability Min="140" Max="181">Pulse Change (Rozjaśnianie) Fast-&gt;Slow</Capability>
+  <Capability Min="182" Max="189">OFF</Capability>
+  <Capability Min="190" Max="231">Pulse Change (Ściemnianie) Fast-&gt;Slow</Capability>
+  <Capability Min="232" Max="239">OFF</Capability>
+  <Capability Min="240" Max="247">Random Strobo</Capability>
+  <Capability Min="248" Max="255">OFF</Capability>
+ </Channel>
+ <Channel Name="Color">
+  <Group Byte="1">Colour</Group>
+  <Capability Min="0" Max="7" Color="#ffffff">White</Capability>
+  <Capability Min="8" Max="15" Color="#ff0000">Red</Capability>
+  <Capability Min="16" Max="23" Color="#00ff00">Green</Capability>
+  <Capability Min="24" Max="31" Color="#0000ff">Blue</Capability>
+  <Capability Min="32" Max="39" Color="#ffff00">Yelow</Capability>
+  <Capability Min="40" Max="47" Color="#ffaa00">Orange</Capability>
+  <Capability Min="48" Max="55" Color="#00ffff">Cyan</Capability>
+  <Capability Min="56" Max="63" Color="#ff00ff">Magenta</Capability>
+  <Capability Min="64" Max="71" Color="#ff0000" Color2="#ffffff">Red/White</Capability>
+  <Capability Min="72" Max="79" Color="#00ff00" Color2="#ff0000">Green/Red</Capability>
+  <Capability Min="80" Max="87" Color="#0000ff" Color2="#00ff00">Blue/Green</Capability>
+  <Capability Min="88" Max="95" Color="#ffff00" Color2="#0000ff">Yellow/Blue</Capability>
+  <Capability Min="96" Max="103" Color="#ffaa00" Color2="#ffff00">Orange/Yellow</Capability>
+  <Capability Min="104" Max="111" Color="#00ffff" Color2="#ffaa00">Cyan/Orange</Capability>
+  <Capability Min="112" Max="119" Color="#ff00ff" Color2="#00ffff">Magenta/Cyan</Capability>
+  <Capability Min="120" Max="127" Color="#ffffff" Color2="#ff00ff">White/Magenta</Capability>
+  <Capability Min="128" Max="191">Auto Rotate (ReverseClock)</Capability>
+  <Capability Min="192" Max="255">Auto Rotate (Clock)</Capability>
+ </Channel>
+ <Channel Name="Gobo">
+  <Group Byte="1">Gobo</Group>
+  <Capability Min="0" Max="7">Gobo 0</Capability>
+  <Capability Min="8" Max="15">Gobo 1</Capability>
+  <Capability Min="16" Max="23">Gobo 2</Capability>
+  <Capability Min="24" Max="31">Gobo 3</Capability>
+  <Capability Min="32" Max="39">Gobo 4</Capability>
+  <Capability Min="40" Max="47">Gobo 5</Capability>
+  <Capability Min="48" Max="55">Gobo 6</Capability>
+  <Capability Min="56" Max="63">Gobo 7</Capability>
+  <Capability Min="64" Max="64">Gobo 0 Peacuful Shake </Capability>
+  <Capability Min="65" Max="71">Gobo 0 Shake</Capability>
+  <Capability Min="72" Max="72">Gobo 1 Peaceful Shake</Capability>
+  <Capability Min="73" Max="79">Gobo 1 Shake</Capability>
+  <Capability Min="80" Max="80">Gobo 2 Peaceful Shake</Capability>
+  <Capability Min="81" Max="87">Gobo 2 Shake</Capability>
+  <Capability Min="88" Max="88">Gobo 3 Peaceful Shake</Capability>
+  <Capability Min="89" Max="95">Gobo 3 Shake</Capability>
+  <Capability Min="96" Max="96">Gobo 4 Peaceful Shake</Capability>
+  <Capability Min="97" Max="103">Gobo 4 Shake</Capability>
+  <Capability Min="104" Max="104">Gobo 5 Peaceful Shake</Capability>
+  <Capability Min="105" Max="111">Gobo 5 Shake</Capability>
+  <Capability Min="112" Max="112">Gobo 6 Peaceful Shake</Capability>
+  <Capability Min="113" Max="119">Gobo 6 Shake</Capability>
+  <Capability Min="120" Max="120">Gobo 7 Peaceful Shake</Capability>
+  <Capability Min="121" Max="127">Gobo 7 Shake</Capability>
+  <Capability Min="128" Max="191">Auto Rotate (Clock) Slow-&gt;Fast</Capability>
+  <Capability Min="192" Max="255">Auto Rotate (ReverseClock) Slow-&gt;Fast</Capability>
+ </Channel>
+ <Channel Name="Auto Functions">
+  <Group Byte="1">Effect</Group>
+  <Capability Min="0" Max="127">OFF</Capability>
+  <Capability Min="128" Max="255">Auto Sound (Other with other value)</Capability>
+ </Channel>
+ <Channel Name="Reset">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="240">OFF</Capability>
+  <Capability Min="241" Max="255">RESET (Hold Button a few second)</Capability>
+ </Channel>
+ <Mode Name="11 Channels">
+  <Physical>
+   <Bulb Type="LED" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="230"/>
+   <Technical PowerConsumption="80" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">PAN</Channel>
+  <Channel Number="1">PAN Fine - Korekta Pan</Channel>
+  <Channel Number="2">TILT</Channel>
+  <Channel Number="3">TILT Fine - Korekta Tilt</Channel>
+  <Channel Number="4">PAN/TILT Speed</Channel>
+  <Channel Number="5">Dimmer</Channel>
+  <Channel Number="6">Strobo</Channel>
+  <Channel Number="7">Color</Channel>
+  <Channel Number="8">Gobo</Channel>
+  <Channel Number="9">Auto Functions</Channel>
+  <Channel Number="10">Reset</Channel>
+ </Mode>
+</FixtureDefinition>

@@ -1,0 +1,9 @@
+Rampa
+{
+	FIRST: 	(6 par 7x18w RGBWA-UV + 2 Derby Flash Butrym + 1 Revo 3)
+	MAX: 	(6 par 7x18w RGBWA-UV + 4 Heads Tomshine 80W)
+}
+Statyw
+{ 
+	BIG:	(4 pary Eurolite64 du¿e puszki + 1 Derby Flash Butrym + 1 Revo 3) 
+}

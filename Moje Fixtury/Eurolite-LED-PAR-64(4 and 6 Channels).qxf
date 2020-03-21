@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.0</Version>
+  <Author>DJ Chemik</Author>
+ </Creator>
+ <Manufacturer>Eurolite </Manufacturer>
+ <Model>LED PAR 64 RGBA Spot\Floor</Model>
+ <Type>Color Changer</Type>
+ <Channel Name="Red">
+  <Group Byte="1">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red intensity (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="1">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Green intensity (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="1">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Blue intensity (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Amber">
+  <Group Byte="1">Intensity</Group>
+  <Colour>Amber</Colour>
+  <Capability Min="0" Max="255">Amber intensity (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer (0 - 100%)</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="1">Shutter</Group>
+  <Capability Min="0" Max="255">Strobe (Slow to fast)</Capability>
+ </Channel>
+ <Mode Name="6 Channels">
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+  <Channel Number="3">Amber</Channel>
+  <Channel Number="4">Dimmer</Channel>
+  <Channel Number="5">Strobe</Channel>
+ </Mode>
+ <Mode Name="4 Chanels">
+  <Channel Number="0">Red</Channel>
+  <Channel Number="1">Green</Channel>
+  <Channel Number="2">Blue</Channel>
+  <Channel Number="3">Amber</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="27" DmxConnector="3-pin"/>
+ </Physical>
+</FixtureDefinition>

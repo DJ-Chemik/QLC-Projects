@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>MC DJ</Author>
+ </Creator>
+ <Manufacturer>DERBY LED </Manufacturer>
+ <Model>Flash Butrym RBWA</Model>
+ <Type>Effect</Type>
+ <Channel Name="Strobo">
+  <Group Byte="0">Shutter</Group>
+  <Capability Min="0" Max="0">Const Light</Capability>
+  <Capability Min="1" Max="255">Strobo Speed</Capability>
+ </Channel>
+ <Channel Name="Red">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Red</Colour>
+  <Capability Min="0" Max="255">Red Dimmer</Capability>
+ </Channel>
+ <Channel Name="Green">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Green</Colour>
+  <Capability Min="0" Max="255">Gren Dimmer</Capability>
+ </Channel>
+ <Channel Name="Blue">
+  <Group Byte="0">Intensity</Group>
+  <Colour>Blue</Colour>
+  <Capability Min="0" Max="255">Blue Dimmer</Capability>
+ </Channel>
+ <Channel Name="White">
+  <Group Byte="0">Intensity</Group>
+  <Colour>White</Colour>
+  <Capability Min="0" Max="255">White Dimmer</Capability>
+ </Channel>
+ <Channel Name="Engine Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Engine Speed</Capability>
+ </Channel>
+ <Channel Name="Auto Functions">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="9">Manual (1-6 Channels)</Capability>
+  <Capability Min="10" Max="174">Auto 1 (slow-&gt;fast)</Capability>
+  <Capability Min="175" Max="255">Auto 2 (slow-&gt;fast)</Capability>
+ </Channel>
+ <Mode Name="7-Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Strobo</Channel>
+  <Channel Number="1">Red</Channel>
+  <Channel Number="2">Green</Channel>
+  <Channel Number="3">Blue</Channel>
+  <Channel Number="4">White</Channel>
+  <Channel Number="5">Engine Speed</Channel>
+  <Channel Number="6">Auto Functions</Channel>
+ </Mode>
+</FixtureDefinition>

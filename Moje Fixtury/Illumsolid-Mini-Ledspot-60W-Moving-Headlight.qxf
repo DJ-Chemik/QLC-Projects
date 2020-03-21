@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>DJ-Chemik</Author>
+ </Creator>
+ <Manufacturer>Illumsolid</Manufacturer>
+ <Model>Mini Ledspot 60W Moving Headlight</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Color">
+  <Group Byte="1">Colour</Group>
+  <Capability Min="0" Max="10" Color="#ffffff">White</Capability>
+  <Capability Min="11" Max="21" Color="#ffffff" Color2="#ff0000">White/Red</Capability>
+  <Capability Min="22" Max="32" Color="#ff0000">Red</Capability>
+  <Capability Min="33" Max="43" Color="#ff0000" Color2="#ffaa00">Red/Orange</Capability>
+  <Capability Min="44" Max="54" Color="#ffaa00">Orange</Capability>
+  <Capability Min="55" Max="65" Color="#ffaa00" Color2="#ffff00">Orange/Yellow</Capability>
+  <Capability Min="66" Max="76" Color="#ffff00">Yellow</Capability>
+  <Capability Min="77" Max="87" Color="#ffff00" Color2="#00ff00">Yellow/Green</Capability>
+  <Capability Min="88" Max="98" Color="#00ff00">Green</Capability>
+  <Capability Min="99" Max="109" Color="#00ff00" Color2="#0000ff">Green/Blue</Capability>
+  <Capability Min="110" Max="120" Color="#0000ff">Blue</Capability>
+  <Capability Min="121" Max="131" Color="#0000ff" Color2="#ff00ff">Blue/Magenta</Capability>
+  <Capability Min="132" Max="142" Color="#ff00ff">Magenta</Capability>
+  <Capability Min="143" Max="153" Color="#ff00ff" Color2="#00ffff">Magenta/Cyan</Capability>
+  <Capability Min="154" Max="159" Color="#00ffff">Cyan</Capability>
+  <Capability Min="160" Max="207" Res="Moving Head Spot 60W/reverseClock.png">Automatic Changes (RevesreClock)</Capability>
+  <Capability Min="208" Max="255" Res="Moving Head Spot 60W/clock.png">Automatic Changes (Clock)</Capability>
+ </Channel>
+ <Channel Name="Gobo">
+  <Group Byte="1">Gobo</Group>
+  <Capability Min="0" Max="9" Res="Moving Head Spot 60W/0.png">Gobo 0</Capability>
+  <Capability Min="10" Max="19" Res="Moving Head Spot 60W/1.png">Gobo 1</Capability>
+  <Capability Min="20" Max="29" Res="Moving Head Spot 60W/2.png">Gobo 2</Capability>
+  <Capability Min="30" Max="39" Res="Moving Head Spot 60W/3.png">Gobo 3</Capability>
+  <Capability Min="40" Max="49" Res="Moving Head Spot 60W/4.png">Gobo 4</Capability>
+  <Capability Min="50" Max="59" Res="Moving Head Spot 60W/5.png">Gobo 5</Capability>
+  <Capability Min="60" Max="69" Res="Moving Head Spot 60W/6.png">Gobo 6</Capability>
+  <Capability Min="70" Max="79" Res="Moving Head Spot 60W/7.png">Gobo 7</Capability>
+  <Capability Min="80" Max="89" Res="Moving Head Spot 60W/shake7.png">Gobo 7 Shake</Capability>
+  <Capability Min="90" Max="99" Res="Moving Head Spot 60W/shake6.png">Gobo 6 Shake</Capability>
+  <Capability Min="100" Max="109" Res="Moving Head Spot 60W/shake5.png">Gobo 5 Shake</Capability>
+  <Capability Min="110" Max="119" Res="Moving Head Spot 60W/shake4.png">Gobo 4 Shake</Capability>
+  <Capability Min="120" Max="129" Res="Moving Head Spot 60W/shake3.png">Gobo 3 Shake</Capability>
+  <Capability Min="130" Max="139" Res="Moving Head Spot 60W/shake2.png">Gobo 2 Shake</Capability>
+  <Capability Min="140" Max="149" Res="Moving Head Spot 60W/shake1.png">Gobo 1 Shake</Capability>
+  <Capability Min="150" Max="202" Res="Moving Head Spot 60W/reverseClock.png">Automatic Changes (ReverseClock)</Capability>
+  <Capability Min="203" Max="255" Res="Moving Head Spot 60W/clock.png">Automatic changes (Clock)</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="1">Intensity</Group>
+  <Capability Min="0" Max="255">Dimmer</Capability>
+ </Channel>
+ <Channel Name="Strobo">
+  <Group Byte="1">Shutter</Group>
+  <Capability Min="0" Max="0">OFF</Capability>
+  <Capability Min="1" Max="255">Frequency</Capability>
+ </Channel>
+ <Channel Name="PAN">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255">Pan (Horizontal)</Capability>
+ </Channel>
+ <Channel Name="TILT">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255">Tilt (Vertical)</Capability>
+ </Channel>
+ <Channel Name="PAN/TILT Speed">
+  <Group Byte="1">Speed</Group>
+  <Capability Min="0" Max="255">Szybkość Reakcji</Capability>
+ </Channel>
+ <Channel Name="PAN Fine - Korekta Pan">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="255">Pan Fine</Capability>
+ </Channel>
+ <Channel Name="TILT Fine - Korekta Titl">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="255">Tilt Fine</Capability>
+ </Channel>
+ <Channel Name="Reset">
+  <Group Byte="1">Maintenance</Group>
+  <Capability Min="0" Max="254">RESET OFF</Capability>
+  <Capability Min="255" Max="255">RESET ON</Capability>
+ </Channel>
+ <Channel Name="Auto Functions">
+  <Group Byte="1">Effect</Group>
+  <Capability Min="0" Max="50">Auto OFF</Capability>
+  <Capability Min="51" Max="151">Fast Moving</Capability>
+  <Capability Min="152" Max="255">Sound Active</Capability>
+ </Channel>
+ <Mode Name="11-Chanels">
+  <Physical>
+   <Bulb Type="Spot 60W" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="270"/>
+   <Technical PowerConsumption="75" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">PAN</Channel>
+  <Channel Number="1">PAN Fine - Korekta Pan</Channel>
+  <Channel Number="2">TILT</Channel>
+  <Channel Number="3">TILT Fine - Korekta Titl</Channel>
+  <Channel Number="4">Color</Channel>
+  <Channel Number="5">Gobo</Channel>
+  <Channel Number="6">Strobo</Channel>
+  <Channel Number="7">Dimmer</Channel>
+  <Channel Number="8">PAN/TILT Speed</Channel>
+  <Channel Number="9">Auto Functions</Channel>
+  <Channel Number="10">Reset</Channel>
+ </Mode>
+</FixtureDefinition>
