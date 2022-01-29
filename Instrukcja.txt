@@ -1,0 +1,6 @@
+Windows:
+Zawartość Moje Fixtury należy skopiować do C:\QLC+\Fixtures
+Zawartoś Gobos należy skopiować do C:\QLC+\Gobos
+
+Linux:
+Zawartośc Moje Fixtury należy skopiować do \home\{user}\.qlcplus\Fixtures
