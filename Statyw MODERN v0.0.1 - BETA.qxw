@@ -1,0 +1,2060 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Workspace>
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>DJ Chemik</Author>
+ </Creator>
+ <Engine>
+  <InputOutputMap>
+   <Universe Name="AVT512pro" ID="0">
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="84"/>
+    </Output>
+   </Universe>
+  </InputOutputMap>
+  <Fixture>
+   <Manufacturer>Eurolite </Manufacturer>
+   <Model>LED PAR 64 RGBA Spot\Floor</Model>
+   <Mode>6 Channels</Mode>
+   <ID>0</ID>
+   <Name>LED PAR 64 RGBA Spot\Floor #1</Name>
+   <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite </Manufacturer>
+   <Model>LED PAR 64 RGBA Spot\Floor</Model>
+   <Mode>6 Channels</Mode>
+   <ID>1</ID>
+   <Name>LED PAR 64 RGBA Spot\Floor #2</Name>
+   <Universe>0</Universe>
+   <Address>10</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite </Manufacturer>
+   <Model>LED PAR 64 RGBA Spot\Floor</Model>
+   <Mode>6 Channels</Mode>
+   <ID>2</ID>
+   <Name>LED PAR 64 RGBA Spot\Floor #3</Name>
+   <Universe>0</Universe>
+   <Address>20</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Eurolite </Manufacturer>
+   <Model>LED PAR 64 RGBA Spot\Floor</Model>
+   <Mode>6 Channels</Mode>
+   <ID>3</ID>
+   <Name>LED PAR 64 RGBA Spot\Floor #4</Name>
+   <Universe>0</Universe>
+   <Address>30</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>American DJ</Manufacturer>
+   <Model>Revo III</Model>
+   <Mode>4 Channel Mode</Mode>
+   <ID>4</ID>
+   <Name>Revo III</Name>
+   <Universe>0</Universe>
+   <Address>80</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>DERBY LED </Manufacturer>
+   <Model>Flash Butrym RBWA</Model>
+   <Mode>7-Channel Mode</Mode>
+   <ID>5</ID>
+   <Name>Flash Butrym RBWA</Name>
+   <Universe>0</Universe>
+   <Address>70</Address>
+   <Channels>7</Channels>
+  </Fixture>
+  <Function ID="0" Type="Scene" Name="All Pars -&gt; RED" Path="All Pars/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="1" Type="Scene" Name="All Pars -&gt; GREEN" Path="All Pars/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="2" Type="Scene" Name="All Pars -&gt; AMBER" Path="All Pars/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="3" Type="Scene" Name="All Pars -&gt; BLUE" Path="All Pars/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="4" Type="Scene" Name="All Pars -&gt; MAGENTA (RB)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="5" Type="Scene" Name="All Pars -&gt; YELLOW (RGA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="6" Type="Scene" Name="All Pars -&gt; PINK (RBA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="7" Type="Scene" Name="All Pars -&gt; LIME (GA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="8" Type="Scene" Name="All Pars -&gt; ORANGE (RA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="All Pars -&gt; PURPLE (BA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,255,4,255,5,0</FixtureVal>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,255,4,255,5,0</FixtureVal>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,255,4,255,5,0</FixtureVal>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,255,4,255,5,0</FixtureVal>
+  </Function>
+  <Function ID="10" Type="Scene" Name="All Pars -&gt; WARM WHITE (RGBA)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="11" Type="Scene" Name="All Pars -&gt; WHITE (RGB)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="12" Type="Scene" Name="(215)" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,215</FixtureVal>
+   <FixtureVal ID="1">5,215</FixtureVal>
+   <FixtureVal ID="2">5,215</FixtureVal>
+   <FixtureVal ID="3">5,215</FixtureVal>
+  </Function>
+  <Function ID="13" Type="Scene" Name="All Pars -&gt; CYAN (GB)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="14" Type="Scene" Name="(245)" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,245</FixtureVal>
+   <FixtureVal ID="1">5,245</FixtureVal>
+   <FixtureVal ID="2">5,245</FixtureVal>
+   <FixtureVal ID="3">5,245</FixtureVal>
+  </Function>
+  <Function ID="15" Type="Scene" Name="(225)" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,225</FixtureVal>
+   <FixtureVal ID="1">5,225</FixtureVal>
+   <FixtureVal ID="2">5,225</FixtureVal>
+   <FixtureVal ID="3">5,225</FixtureVal>
+  </Function>
+  <Function ID="16" Type="Scene" Name="(235)" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,235</FixtureVal>
+   <FixtureVal ID="1">5,235</FixtureVal>
+   <FixtureVal ID="2">5,235</FixtureVal>
+   <FixtureVal ID="3">5,235</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="All Pars -&gt; Limeing YELLOW (RG)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="18" Type="Scene" Name="(255)" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255</FixtureVal>
+   <FixtureVal ID="1">5,255</FixtureVal>
+   <FixtureVal ID="2">5,255</FixtureVal>
+   <FixtureVal ID="3">5,255</FixtureVal>
+  </Function>
+  <Function ID="19" Type="Chaser" Name="Przejście BLUE --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+  </Function>
+  <Function ID="20" Type="Scene" Name="All Pars -&gt; CYANING WHITE (RB)" Path="All Pars/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="1">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="2">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+   <FixtureVal ID="3">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="21" Type="Chaser" Name="Przejście GREEN --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+  </Function>
+  <Function ID="22" Type="Chaser" Name="Wszystkie pary na raz">
+   <Speed FadeIn="0" FadeOut="0" Duration="236"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">2</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">13</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">20</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">7</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">17</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">8</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">6</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">9</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">10</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">11</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+  </Function>
+  <Function ID="23" Type="Scene" Name="[1] -&gt; RED" Path="PAR [1]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="24" Type="Scene" Name="[1] -&gt; AMBER" Path="PAR [1]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="25" Type="Scene" Name="[1] -&gt; GREEN" Path="PAR [1]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="26" Type="Scene" Name="[1] -&gt; BLUE" Path="PAR [1]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="27" Type="Chaser" Name="Przejście AMBER --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+  </Function>
+  <Function ID="28" Type="Scene" Name="[1] -&gt; CYANING WHITE (RB)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="29" Type="Scene" Name="[1] -&gt; LIME (GA)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="30" Type="Scene" Name="[1] -&gt; Limeing YELLOW (RG)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="31" Type="Scene" Name="[1] -&gt; MAGENTA (RB)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="32" Type="Scene" Name="[1] -&gt; ORANGE (RA)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="33" Type="Scene" Name="[2] -&gt; PINK (RBA)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="34" Type="Chaser" Name="Przejście CYANING WHITE --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">85</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+  </Function>
+  <Function ID="35" Type="Scene" Name="[1] -&gt; WARM WHITE (RGBA)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="36" Type="Scene" Name="[1] -&gt; WHITE (RGB)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="37" Type="Scene" Name="[1] -&gt; YELLOW (RGA)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="38" Type="Scene" Name="[1] -&gt; CYAN (GB)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="39" Type="Scene" Name="[2] -&gt; LIME (GA)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="40" Type="Scene" Name="[2] -&gt; Limeing YELLOW (RG) " Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="41" Type="Scene" Name="[2] -&gt; ORANGE (RA)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="42" Type="Chaser" Name="Przejście WARM WHITE --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">103</Step>
+  </Function>
+  <Function ID="43" Type="Scene" Name="[1] -&gt; PURPLE (BA)" Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,0,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="44" Type="Scene" Name="[2] -&gt; WARM WHITE (RGBA)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="45" Type="Scene" Name="[2] -&gt; WHITE (RGB)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="[2] -&gt; YELLOW (RGA) " Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="47" Type="Scene" Name="[2] -&gt; CYANING WHITE (RB)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="48" Type="Scene" Name="[2] -&gt; CYAN (GB)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="49" Type="Chaser" Name="Przejście Limeing YELLOW --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+  </Function>
+  <Function ID="50" Type="Chaser" Name="Przejście MAGENTA --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">83</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">88</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">99</Step>
+  </Function>
+  <Function ID="51" Type="Chaser" Name="Przejście ORANGE --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">100</Step>
+  </Function>
+  <Function ID="52" Type="Chaser" Name="Przejście LIME --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+  </Function>
+  <Function ID="53" Type="Chaser" Name="Przejście CYAN --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">84</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+  </Function>
+  <Function ID="54" Type="Chaser" Name="Przejście YELLOW --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+  </Function>
+  <Function ID="55" Type="Chaser" Name="Przejście WHITE --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">104</Step>
+  </Function>
+  <Function ID="56" Type="Chaser" Name="Przejście PINK --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">80</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+  </Function>
+  <Function ID="57" Type="Chaser" Name="Przejście AMBER &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+  </Function>
+  <Function ID="58" Type="Chaser" Name="Przejście BLUE &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+  </Function>
+  <Function ID="59" Type="Chaser" Name="Przejście CYAN &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">84</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+  </Function>
+  <Function ID="60" Type="Chaser" Name="Przejście CYANING WHITE &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">85</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+  </Function>
+  <Function ID="61" Type="Chaser" Name="Przejście GREEN &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+  </Function>
+  <Function ID="62" Type="Chaser" Name="Przejście LIME &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+  </Function>
+  <Function ID="63" Type="Chaser" Name="Przejście Limeing YELLOW &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+  </Function>
+  <Function ID="64" Type="Chaser" Name="Przejście MAGENTA &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">83</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">88</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">99</Step>
+  </Function>
+  <Function ID="65" Type="Chaser" Name="Przejście ORANGE &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">100</Step>
+  </Function>
+  <Function ID="66" Type="Scene" Name="[2] -&gt; AMBER" Path="PAR [2]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="[2] -&gt; BLUE " Path="PAR [2]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="[2] -&gt; GREEN " Path="PAR [2]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="[2] -&gt; RED " Path="PAR [2]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="[2] (215) " Path="PAR [2]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,215</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="[2] (225) " Path="PAR [2]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,225</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="[2] (235) " Path="PAR [2]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,235</FixtureVal>
+  </Function>
+  <Function ID="73" Type="Scene" Name="[2] (245) " Path="PAR [2]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,245</FixtureVal>
+  </Function>
+  <Function ID="74" Type="Scene" Name="[2] (255)" Path="PAR [2]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,255</FixtureVal>
+  </Function>
+  <Function ID="75" Type="Scene" Name="[1] (215)" Path="PAR [1]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,215</FixtureVal>
+  </Function>
+  <Function ID="76" Type="Scene" Name="[1] (225)" Path="PAR [1]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,225</FixtureVal>
+  </Function>
+  <Function ID="77" Type="Scene" Name="[1] (235)" Path="PAR [1]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,235</FixtureVal>
+  </Function>
+  <Function ID="78" Type="Scene" Name="[1] (245) " Path="PAR [1]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,245</FixtureVal>
+  </Function>
+  <Function ID="79" Type="Scene" Name="[1] (255) " Path="PAR [1]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,255</FixtureVal>
+  </Function>
+  <Function ID="80" Type="Scene" Name="[1] -&gt; PINK (RBA) " Path="PAR [1]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="81" Type="Chaser" Name="Przejście PINK &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">80</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+  </Function>
+  <Function ID="82" Type="Scene" Name="[2] -&gt; PURPLE (BA) " Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,0,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="83" Type="Scene" Name="[2] -&gt; MAGENTA (RB)" Path="PAR [2]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="84" Type="Scene" Name="[3] -&gt; CYAN (GB)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="85" Type="Scene" Name="[3] -&gt; CYANING WHITE (RB) " Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="[3] -&gt; LIME (GA)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="[3] -&gt; Limeing YELLOW (RG)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="[3] -&gt; MAGENTA (RB)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="[3] -&gt; ORANGE (RA) " Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="[3] -&gt; PINK (RBA) " Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="[3] -&gt; PURPLE (BA) " Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="[3] -&gt; WARM WHITE (RGBA)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="[3] -&gt; WHITE (RGB) " Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="[3] -&gt; YELLOW (RGA)" Path="PAR [3]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="[4] -&gt; CYAN (GB)" Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="[4] -&gt; CYANING WHITE (RB)" Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="[4] -&gt; LIME (GA) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Scene" Name="[4] -&gt; Limeing YELLOW (RG)" Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="99" Type="Scene" Name="[4] -&gt; MAGENTA (RB) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="[4] -&gt; ORANGE (RA) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="[4] -&gt; PINK (RBA)" Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Scene" Name="[4] -&gt; PURPLE (BA)" Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="103" Type="Scene" Name="[4] -&gt; WARM WHITE (RGBA) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="[4] -&gt; WHITE (RGB) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="[4] -&gt; YELLOW (RGA) " Path="PAR [4]/Combinated Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="[4] -&gt; AMBER" Path="PAR [4]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="[4] -&gt; BLUE" Path="PAR [4]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="[4] -&gt; GREEN " Path="PAR [4]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="[4] -&gt; RED " Path="PAR [4]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="[3] -&gt; AMBER" Path="PAR [3]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="[3] -&gt; BLUE " Path="PAR [3]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="[3] -&gt; GREEN " Path="PAR [3]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,0,1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="[3] -&gt; RED " Path="PAR [3]/Basic Colors">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="[3] (215)" Path="PAR [3]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,215</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="[3] (225)" Path="PAR [3]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,225</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="[3] (235) " Path="PAR [3]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,235</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="[3] (245)" Path="PAR [3]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,245</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="[3] (255)" Path="PAR [3]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">5,255</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="[4] (215)" Path="PAR [4]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,215</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="[4] (225) " Path="PAR [4]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,225</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="[4] (235)" Path="PAR [4]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,235</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="[4] (245)" Path="PAR [4]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,245</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="[4] (255) " Path="PAR [4]/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">5,255</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Chaser" Name="Przejście RED --&gt;" Path="Przejście Pojedyńczego Koloru/LEFT -&gt; RIGHT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+  </Function>
+  <Function ID="125" Type="Chaser" Name="Przejście RED &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+  </Function>
+  <Function ID="126" Type="Chaser" Name="Przejście WARM WHITE &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">35</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">103</Step>
+  </Function>
+  <Function ID="127" Type="Chaser" Name="Przejście WHITE &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">104</Step>
+  </Function>
+  <Function ID="128" Type="Chaser" Name="Przejście YELLOW &lt;--" Path="Przejście Pojedyńczego Koloru/RIGHT -&gt; LEFT">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Backward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+  </Function>
+  <Function ID="129" Type="Chaser" Name="Wszystkie przejścia --&gt;" Path="Przejście Pojedyńczego Koloru">
+   <Speed FadeIn="0" FadeOut="0" Duration="800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">53</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">52</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">49</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">50</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">51</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="130" Type="Chaser" Name="Wszystkie przejścia na zmiane" Path="Przejście Pojedyńczego Koloru">
+   <Speed FadeIn="0" FadeOut="0" Duration="800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">57</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">60</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">81</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">128</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">27</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">19</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">53</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">34</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">21</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">52</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">49</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">50</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">51</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">42</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+  </Function>
+  <Function ID="131" Type="Chaser" Name="Wszystkie przejścia &lt;--" Path="Przejście Pojedyńczego Koloru">
+   <Speed FadeIn="0" FadeOut="0" Duration="800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">57</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">60</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">61</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">81</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">128</Step>
+  </Function>
+  <Function ID="132" Type="Chaser" Name="Randomowe kolory na parach">
+   <Speed FadeIn="50" FadeOut="100" Duration="236"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">24</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">26</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">25</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">23</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">38</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">28</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">29</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">30</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">31</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">32</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">80</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">43</Step>
+   <Step Number="12" FadeIn="100" Hold="0" FadeOut="0">35</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">36</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">37</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="100">69</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">48</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">47</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">39</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">40</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">83</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">41</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">33</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">82</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">44</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">45</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">46</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">84</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">85</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">88</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="41" FadeIn="0" Hold="0" FadeOut="0">91</Step>
+   <Step Number="42" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="43" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="44" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="45" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+   <Step Number="46" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+   <Step Number="47" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+   <Step Number="48" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+   <Step Number="49" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+   <Step Number="50" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+   <Step Number="51" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+   <Step Number="52" FadeIn="0" Hold="0" FadeOut="0">98</Step>
+   <Step Number="53" FadeIn="0" Hold="0" FadeOut="0">99</Step>
+   <Step Number="54" FadeIn="0" Hold="0" FadeOut="0">100</Step>
+   <Step Number="55" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+   <Step Number="56" FadeIn="0" Hold="0" FadeOut="0">102</Step>
+   <Step Number="57" FadeIn="0" Hold="0" FadeOut="0">103</Step>
+   <Step Number="58" FadeIn="0" Hold="0" FadeOut="0">104</Step>
+   <Step Number="59" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+  </Function>
+  <Function ID="133" Type="Chaser" Name="RED w BLUE &lt;--" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">149</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">164</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">162</Step>
+  </Function>
+  <Function ID="134" Type="Chaser" Name="GREEN w WHITE --&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">146</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">154</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">155</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">153</Step>
+  </Function>
+  <Function ID="135" Type="Chaser" Name="BLUE w ORANGE --&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">139</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">143</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">144</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">142</Step>
+  </Function>
+  <Function ID="136" Type="Chaser" Name="CYAN w RED &lt;--" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">145</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">157</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">156</Step>
+  </Function>
+  <Function ID="137" Type="Chaser" Name="LIME w CYAN &lt;--" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">147</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+  </Function>
+  <Function ID="138" Type="Chaser" Name="PURPLE w MAGENTA --&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">148</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">151</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">150</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">152</Step>
+  </Function>
+  <Function ID="139" Type="Collection" Name="BLUE w ORANGE &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/BLUE w ORANGE --&gt;">
+   <Step Number="0">26</Step>
+  </Function>
+  <Function ID="140" Type="Scene" Name="Strobo OFF" Path="All Pars/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">5,0</FixtureVal>
+   <FixtureVal ID="1">5,0</FixtureVal>
+   <FixtureVal ID="2">5,0</FixtureVal>
+   <FixtureVal ID="3">5,0</FixtureVal>
+  </Function>
+  <Function ID="141" Type="Collection" Name="(255) White" Path="Strobo White">
+   <Step Number="0">18</Step>
+   <Step Number="1">11</Step>
+  </Function>
+  <Function ID="142" Type="Collection" Name="BLUE w ORANGE &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/BLUE w ORANGE --&gt;">
+   <Step Number="0">107</Step>
+   <Step Number="1">32</Step>
+   <Step Number="2">41</Step>
+   <Step Number="3">89</Step>
+  </Function>
+  <Function ID="143" Type="Collection" Name="BLUE w ORANGE &lt;2&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/BLUE w ORANGE --&gt;">
+   <Step Number="0">67</Step>
+   <Step Number="1">32</Step>
+  </Function>
+  <Function ID="144" Type="Collection" Name="BLUE w ORANGE &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/BLUE w ORANGE --&gt;">
+   <Step Number="0">111</Step>
+   <Step Number="1">32</Step>
+   <Step Number="2">41</Step>
+  </Function>
+  <Function ID="145" Type="Collection" Name="CYAN w RED &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/CYAN w RED &lt;--">
+   <Step Number="0">95</Step>
+  </Function>
+  <Function ID="146" Type="Collection" Name="GREEN w WHITE &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/GREEN w WHITE --&gt;">
+   <Step Number="0">25</Step>
+  </Function>
+  <Function ID="147" Type="Collection" Name="LIME w CYAN &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/LIME w CYAN &lt;--">
+   <Step Number="0">97</Step>
+  </Function>
+  <Function ID="148" Type="Collection" Name="PURPLE w MAGENTA &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/PURPLE w MAGENTA --&gt;">
+   <Step Number="0">43</Step>
+  </Function>
+  <Function ID="149" Type="Collection" Name="RED w BLUE &lt;1&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/RED w BLUE &lt;--">
+   <Step Number="0">109</Step>
+  </Function>
+  <Function ID="150" Type="Collection" Name="PURPLE w MAGENTA &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/PURPLE w MAGENTA --&gt;">
+   <Step Number="0">91</Step>
+   <Step Number="1">31</Step>
+   <Step Number="2">83</Step>
+  </Function>
+  <Function ID="151" Type="Collection" Name="PURPLE w MAGENTA &lt;2&gt; " Path="Przejście Koloru Zostawiającego Inny Kolor/PURPLE w MAGENTA --&gt;">
+   <Step Number="0">82</Step>
+   <Step Number="1">31</Step>
+  </Function>
+  <Function ID="152" Type="Collection" Name="PURPLE w MAGENTA &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/PURPLE w MAGENTA --&gt;">
+   <Step Number="0">102</Step>
+   <Step Number="1">31</Step>
+   <Step Number="2">83</Step>
+   <Step Number="3">88</Step>
+  </Function>
+  <Function ID="153" Type="Collection" Name="GREEN w WHITE &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/GREEN w WHITE --&gt;">
+   <Step Number="0">108</Step>
+   <Step Number="1">36</Step>
+   <Step Number="2">45</Step>
+   <Step Number="3">93</Step>
+  </Function>
+  <Function ID="154" Type="Collection" Name="GREEN w WHITE &lt;2&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/GREEN w WHITE --&gt;">
+   <Step Number="0">68</Step>
+   <Step Number="1">36</Step>
+  </Function>
+  <Function ID="155" Type="Collection" Name="GREEN w WHITE &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/GREEN w WHITE --&gt;">
+   <Step Number="0">112</Step>
+   <Step Number="1">36</Step>
+   <Step Number="2">45</Step>
+  </Function>
+  <Function ID="156" Type="Collection" Name="CYAN w RED &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/CYAN w RED &lt;--">
+   <Step Number="0">38</Step>
+   <Step Number="1">69</Step>
+   <Step Number="2">113</Step>
+   <Step Number="3">109</Step>
+  </Function>
+  <Function ID="157" Type="Collection" Name="CYAN w RED &lt;2&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/CYAN w RED &lt;--">
+   <Step Number="0">84</Step>
+   <Step Number="1">109</Step>
+  </Function>
+  <Function ID="158" Type="Collection" Name="CYAN w RED &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/CYAN w RED &lt;--">
+   <Step Number="0">48</Step>
+   <Step Number="1">113</Step>
+   <Step Number="2">109</Step>
+  </Function>
+  <Function ID="159" Type="Collection" Name="LIME w CYAN &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/LIME w CYAN &lt;--">
+   <Step Number="0">97</Step>
+   <Step Number="1">48</Step>
+   <Step Number="2">84</Step>
+   <Step Number="3">95</Step>
+  </Function>
+  <Function ID="160" Type="Collection" Name="LIME w CYAN &lt;2&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/LIME w CYAN &lt;--">
+   <Step Number="0">86</Step>
+   <Step Number="1">95</Step>
+  </Function>
+  <Function ID="161" Type="Collection" Name="LIME w CYAN &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/LIME w CYAN &lt;--">
+   <Step Number="0">39</Step>
+   <Step Number="1">84</Step>
+   <Step Number="2">95</Step>
+  </Function>
+  <Function ID="162" Type="Collection" Name="RED w BLUE &lt;4&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/RED w BLUE &lt;--">
+   <Step Number="0">109</Step>
+   <Step Number="1">67</Step>
+   <Step Number="2">111</Step>
+   <Step Number="3">107</Step>
+  </Function>
+  <Function ID="163" Type="Collection" Name="RED w BLUE &lt;2&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/RED w BLUE &lt;--">
+   <Step Number="0">113</Step>
+   <Step Number="1">107</Step>
+  </Function>
+  <Function ID="164" Type="Collection" Name="RED w BLUE &lt;3&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor/RED w BLUE &lt;--">
+   <Step Number="0">69</Step>
+   <Step Number="1">111</Step>
+   <Step Number="2">107</Step>
+  </Function>
+  <Function ID="165" Type="Chaser" Name="&lt;&lt;&lt;WSZYSTKIE ZOSTAWIAJĄCE INNY KOLOR&gt;&gt;" Path="Przejście Koloru Zostawiającego Inny Kolor">
+   <Speed FadeIn="0" FadeOut="0" Duration="800"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">135</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">136</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">134</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">137</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">138</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+  </Function>
+  <Function ID="166" Type="Chaser" Name="PRZERWA">
+   <Speed FadeIn="0" FadeOut="0" Duration="30000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">0</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">4</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">3</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">1</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">5</Step>
+  </Function>
+  <Function ID="167" Type="Collection" Name="(235) White" Path="Strobo White">
+   <Step Number="0">11</Step>
+   <Step Number="1">16</Step>
+  </Function>
+  <Function ID="168" Type="Scene" Name="Strobo OFF" Path="DERBY/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,0</FixtureVal>
+  </Function>
+  <Function ID="169" Type="Collection" Name="(OFF) White" Path="Strobo White">
+   <Step Number="0">11</Step>
+   <Step Number="1">140</Step>
+  </Function>
+  <Function ID="170" Type="Collection" Name="(245) White " Path="Strobo White">
+   <Step Number="0">11</Step>
+   <Step Number="1">14</Step>
+  </Function>
+  <Function ID="171" Type="Scene" Name="Strobo 1" Path="DERBY/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,15</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Chaser" Name="Randomowe kolory na derbach" Path="DERBY">
+   <Speed FadeIn="0" FadeOut="0" Duration="404"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">199</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">204</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">198</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">201</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">203</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">202</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">200</Step>
+  </Function>
+  <Function ID="173" Type="Collection" Name="DerbyRandomColor + auto off">
+   <Step Number="0">172</Step>
+   <Step Number="1">174</Step>
+  </Function>
+  <Function ID="174" Type="Scene" Name="Auto OFF" Path="DERBY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">6,0</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Scene" Name="Strobo 2" Path="DERBY/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,40</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="Strobo 3" Path="DERBY/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,120</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Collection" Name="(235) Cyan" Path="Strobo Cyan">
+   <Step Number="0">16</Step>
+   <Step Number="1">13</Step>
+  </Function>
+  <Function ID="178" Type="Collection" Name="(245) Cyan" Path="Strobo Cyan">
+   <Step Number="0">14</Step>
+   <Step Number="1">13</Step>
+  </Function>
+  <Function ID="179" Type="Collection" Name="(255) Cyan" Path="Strobo Cyan">
+   <Step Number="0">18</Step>
+   <Step Number="1">13</Step>
+  </Function>
+  <Function ID="180" Type="Collection" Name="(OFF) Cyan" Path="Strobo Cyan">
+   <Step Number="0">140</Step>
+   <Step Number="1">13</Step>
+  </Function>
+  <Function ID="181" Type="Scene" Name="Strobo 4" Path="DERBY/Strobo">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,200</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="Revo Auto">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,255,3,255</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Collection" Name="(235) Orange" Path="Strobo Orange">
+   <Step Number="0">16</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="184" Type="Scene" Name="&lt;2&gt; WHITE" Path="DERBY/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="&lt;2&gt; RED" Path="DERBY/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255,2,0,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Collection" Name="(245) Orange" Path="Strobo Orange">
+   <Step Number="0">14</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="187" Type="Scene" Name="&lt;2&gt; GREEN" Path="DERBY/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Scene" Name="&lt;2&gt; BLUE" Path="DERBY/BASIC COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Scene" Name="&lt;2&gt; (green+white)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,255,3,0,4,255</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Collection" Name="(255) Orange" Path="Strobo Orange">
+   <Step Number="0">18</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="191" Type="Collection" Name="(OFF) Orange" Path="Strobo Orange">
+   <Step Number="0">140</Step>
+   <Step Number="1">8</Step>
+  </Function>
+  <Function ID="192" Type="Scene" Name="Revo OFF">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="4">0,0,3,0</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Scene" Name="Derby OFF" Path="DERBY">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">0,0,1,0,2,0,3,0,4,0,5,0,6,0</FixtureVal>
+  </Function>
+  <Function ID="198" Type="Scene" Name="&lt;2&gt; All Colors (rgbw)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255,2,255,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="199" Type="Scene" Name="&lt;2&gt; (blue+white)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,0,3,255,4,255</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="&lt;2&gt; Yellow(green+red)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255,2,255,3,0,4,0</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="&lt;2&gt; Cyan (blue+green)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,255,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Scene" Name="&lt;2&gt; Magenta (blue+red)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255,2,0,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="203" Type="Scene" Name="&lt;2&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,0,2,128,3,255,4,0</FixtureVal>
+  </Function>
+  <Function ID="204" Type="Scene" Name="&lt;2&gt; (red+white)" Path="DERBY/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="5">1,255,2,0,3,0,4,255</FixtureVal>
+  </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
+ </Engine>
+ <VirtualConsole>
+  <Frame Caption="">
+   <Appearance>
+    <FrameStyle>None</FrameStyle>
+    <ForegroundColor>Default</ForegroundColor>
+    <BackgroundColor>Default</BackgroundColor>
+    <BackgroundImage>C:/Users/MC DJ/Desktop/DSC_0120.JPG</BackgroundImage>
+    <Font>Default</Font>
+   </Appearance>
+   <SoloFrame Caption="Tryb LED Parów" ID="6">
+    <Appearance>
+     <FrameStyle>Raised</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="0" Width="930" Height="535"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Wszystkie pary na raz" ID="0" Icon="">
+     <WindowState Visible="True" X="0" Y="35" Width="215" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4281380336</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Rockwell Extra Bold,14,-1,5,81,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="22"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Wszystkie przejścia --&gt;" ID="1" Icon="">
+     <WindowState Visible="True" X="215" Y="175" Width="150" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4278251548</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="129"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="&lt;&lt;&lt;WSZYSTKIE ZOSTAWIAJĄCE INNY KOLOR&gt;&gt;" ID="4" Icon="">
+     <WindowState Visible="True" X="0" Y="175" Width="215" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4293927972</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="165"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Wszystkie przejścia &lt;--" ID="3" Icon="">
+     <WindowState Visible="True" X="525" Y="175" Width="145" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4291358739</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="131"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Randomowe kolory na parach" ID="2" Icon="">
+     <WindowState Visible="True" X="215" Y="35" Width="215" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4293536752</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Old English Text MT,14,-1,5,50,1,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="132"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="PRZERWA" ID="5" Icon="">
+     <WindowState Visible="True" X="715" Y="395" Width="215" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4278801325</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Function ID="166"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Frame Caption="LED PAR Strobo" ID="7">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="670" Y="0" Width="260" Height="310"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="(235) White" ID="13" Icon="">
+      <WindowState Visible="True" X="195" Y="35" Width="65" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="167"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(255) White" ID="12" Icon="">
+      <WindowState Visible="True" X="0" Y="35" Width="115" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="141"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(245) White" ID="16" Icon="">
+      <WindowState Visible="True" X="115" Y="35" Width="80" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="170"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(255) Orange" ID="47" Icon="">
+      <WindowState Visible="True" X="0" Y="110" Width="115" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294945280</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="190"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(255) Cyan" ID="48" Icon="">
+      <WindowState Visible="True" X="0" Y="185" Width="115" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4283826175</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="179"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(245) Orange" ID="49" Icon="">
+      <WindowState Visible="True" X="115" Y="110" Width="80" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294945280</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="186"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(245) Cyan" ID="50" Icon="">
+      <WindowState Visible="True" X="115" Y="185" Width="80" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4283826175</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="178"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(235) Orange" ID="51" Icon="">
+      <WindowState Visible="True" X="195" Y="110" Width="65" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4294945280</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="183"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="(235) Cyan" ID="52" Icon="">
+      <WindowState Visible="True" X="195" Y="185" Width="65" Height="75"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>4283826175</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="177"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <SoloFrame Caption="" ID="10">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="True" X="0" Y="260" Width="270" Height="80"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>True</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Mixing>False</Mixing>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="Strobo OFF" ID="19" Icon="">
+       <WindowState Visible="True" X="0" Y="0" Width="260" Height="45"/>
+       <Appearance>
+        <FrameStyle>Sunken</FrameStyle>
+        <ForegroundColor>4294967295</ForegroundColor>
+        <BackgroundColor>4281348144</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="140"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </SoloFrame>
+    </Frame>
+    <SpeedDial Caption="Duration" ID="11">
+     <WindowState Visible="True" X="430" Y="35" Width="240" Height="140"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>101</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="10000"/>
+     <Time>236</Time>
+     <Function FadeIn="0" FadeOut="0" Duration="6">22</Function>
+     <Function FadeIn="0" FadeOut="0" Duration="6">132</Function>
+    </SpeedDial>
+    <Button Caption="--&gt; Random &lt;--" ID="20" Icon="">
+     <WindowState Visible="True" X="365" Y="175" Width="160" Height="140"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4289261798</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="130"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <SoloFrame Caption="DERBY" ID="8">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="930" Y="0" Width="390" Height="600"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Slider Caption="Auto2" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="115" Y="35" Width="60" Height="260"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4284539213</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="175" HighLimit="255" Value="191">
+      <Channel Fixture="5">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Auto1" ID="26" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="60" Y="35" Width="55" Height="260"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4291174697</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="10" HighLimit="174" Value="62">
+      <Channel Fixture="5">6</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Engine" ID="25" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="0" Y="35" Width="60" Height="260"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>4283826175</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="130" HighLimit="255" Value="184">
+      <Channel Fixture="5">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Button Caption="Randomowe Kolory na   Debrach" ID="38" Icon="">
+     <WindowState Visible="True" X="0" Y="295" Width="175" Height="70"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4278206247</ForegroundColor>
+      <BackgroundColor>4280811760</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Segoe UI Black,8,-1,5,87,1,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="173"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <SpeedDial Caption="Duration" ID="39">
+     <WindowState Visible="True" X="0" Y="365" Width="215" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Visibility>100</Visibility>
+     <AbsoluteValue Minimum="0" Maximum="10000"/>
+     <Time>404</Time>
+     <Function FadeIn="0" FadeOut="0" Duration="6">172</Function>
+     <Preset ID="16">
+      <Name>1</Name>
+      <Value>200</Value>
+     </Preset>
+     <Preset ID="17">
+      <Name>2</Name>
+      <Value>300</Value>
+     </Preset>
+     <Preset ID="18">
+      <Name>3</Name>
+      <Value>400</Value>
+     </Preset>
+     <Preset ID="19">
+      <Name>4</Name>
+      <Value>500</Value>
+     </Preset>
+     <Preset ID="20">
+      <Name>5</Name>
+      <Value>600</Value>
+     </Preset>
+    </SpeedDial>
+    <SoloFrame Caption="" ID="40">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="175" Y="35" Width="190" Height="330"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Frame Caption="" ID="37">
+      <Appearance>
+       <FrameStyle>Sunken</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <WindowState Visible="True" X="0" Y="0" Width="190" Height="325"/>
+      <AllowChildren>True</AllowChildren>
+      <AllowResize>False</AllowResize>
+      <ShowHeader>False</ShowHeader>
+      <ShowEnableButton>True</ShowEnableButton>
+      <Collapsed>False</Collapsed>
+      <Disabled>False</Disabled>
+      <Button Caption="BLUE" ID="28" Icon="">
+       <WindowState Visible="True" X="0" Y="0" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4280321279</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="188"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="ALL RGBW" ID="36" Icon="">
+       <WindowState Visible="True" X="95" Y="240" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="198"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Cyan GB" ID="34" Icon="">
+       <WindowState Visible="True" X="95" Y="160" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4283826175</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="201"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="Magenta RB" ID="33" Icon="">
+       <WindowState Visible="True" X="0" Y="160" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4294902015</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="202"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="GW" ID="35" Icon="">
+       <WindowState Visible="True" X="0" Y="240" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4290641808</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="189"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="RED" ID="31" Icon="">
+       <WindowState Visible="True" X="0" Y="80" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4293925416</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="185"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="WHITE" ID="32" Icon="">
+       <WindowState Visible="True" X="95" Y="80" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>Default</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="184"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+      <Button Caption="GREEN" ID="30" Icon="">
+       <WindowState Visible="True" X="95" Y="0" Width="95" Height="80"/>
+       <Appearance>
+        <FrameStyle>None</FrameStyle>
+        <ForegroundColor>Default</ForegroundColor>
+        <BackgroundColor>4282445878</BackgroundColor>
+        <BackgroundImage>None</BackgroundImage>
+        <Font>Default</Font>
+       </Appearance>
+       <Function ID="187"/>
+       <Action>Toggle</Action>
+       <Intensity Adjust="False">100</Intensity>
+      </Button>
+     </Frame>
+    </SoloFrame>
+    <Slider Caption="Strobo" ID="41" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="215" Y="365" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="5">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <SoloFrame Caption="" ID="21">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="275" Y="365" Width="90" Height="200"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>False</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="200" ID="45" Icon="">
+      <WindowState Visible="True" X="0" Y="0" Width="90" Height="35"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="181"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="120" ID="44" Icon="">
+      <WindowState Visible="True" X="0" Y="35" Width="90" Height="35"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="176"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="40" ID="43" Icon="">
+      <WindowState Visible="True" X="0" Y="70" Width="90" Height="35"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="175"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="15" ID="46" Icon="">
+      <WindowState Visible="True" X="0" Y="105" Width="90" Height="35"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="171"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Strobo OFF" ID="42" Icon="">
+      <WindowState Visible="True" X="0" Y="140" Width="90" Height="60"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>4294967295</ForegroundColor>
+       <BackgroundColor>4280098077</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="168"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <Button Caption="Derby OFF" ID="9" Icon="">
+     <WindowState Visible="True" X="0" Y="565" Width="365" Height="35"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4280427042</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,14,-1,5,75,1,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="193"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+   <Clock Type="Countdown" Hours="8" Minutes="0" Seconds="0" Caption="" ID="15">
+    <WindowState Visible="True" X="790" Y="535" Width="140" Height="65"/>
+    <Appearance>
+     <FrameStyle>None</FrameStyle>
+     <ForegroundColor>4278895176</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>MS Shell Dlg 2,-1,28,5,75,0,0,0,0,0</Font>
+    </Appearance>
+    <PlayPause/>
+    <Reset/>
+   </Clock>
+   <SoloFrame Caption="" ID="14">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="0" Y="535" Width="325" Height="65"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>False</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Mixing>False</Mixing>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <Button Caption="Revo AUTO" ID="17" Icon="">
+     <WindowState Visible="True" X="0" Y="0" Width="155" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4281654798</ForegroundColor>
+      <BackgroundColor>4285753191</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,16,-1,5,75,0,0,0,0,0</Font>
+     </Appearance>
+     <Function ID="182"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+    <Button Caption="Revo OFF" ID="18" Icon="">
+     <WindowState Visible="True" X="155" Y="0" Width="155" Height="65"/>
+     <Appearance>
+      <FrameStyle>None</FrameStyle>
+      <ForegroundColor>4294967295</ForegroundColor>
+      <BackgroundColor>4281018408</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>MS Shell Dlg 2,16,-1,5,75,0,0,1,0,0</Font>
+     </Appearance>
+     <Function ID="192"/>
+     <Action>Toggle</Action>
+     <Intensity Adjust="False">100</Intensity>
+    </Button>
+   </SoloFrame>
+  </Frame>
+  <Properties>
+   <Size Width="1920" Height="1080"/>
+   <GrandMaster ChannelMode="Intensity" ValueMode="Reduce" SliderMode="Normal"/>
+  </Properties>
+ </VirtualConsole>
+ <SimpleDesk>
+  <Engine/>
+ </SimpleDesk>
+</Workspace>

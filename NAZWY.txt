@@ -5,7 +5,8 @@ Rampa
 }
 Statyw
 { 
-	BIG:	(4 pary Eurolite64 du¿e puszki + 1 Derby Flash Butrym + 1 Revo 3) 
+	BIG:	(4 pary Eurolite64 du¿e puszki + 1 Derby Flash Butrym + 1 Revo 3)
+	MODERN:  (4 pary 7x18w RGBWA-UV + 1 Derby Flash Butrym + 1 Revo 3)
 }
 
 
