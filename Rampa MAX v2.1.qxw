@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Workspace>
-<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
+<Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
   <Version>4.11.2</Version>
-  <Author>DJ-Chemik</Author>
+  <Author>DJ Chemik</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="AVT512pro" ID="0">
-    <Output Plugin="DMX USB" Line="0"/>
+    <Output Plugin="DMX USB" Line="0">
+     <PluginParameters UniverseChannels="131"/>
+    </Output>
    </Universe>
   </InputOutputMap>
   <Fixture>
@@ -1839,7 +1841,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2625,7 +2627,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2675,7 +2677,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2725,7 +2727,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2775,7 +2777,7 @@
     <StartOffset>135</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2825,7 +2827,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2875,7 +2877,7 @@
     <StartOffset>135</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2925,7 +2927,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -2975,7 +2977,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3025,7 +3027,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3089,7 +3091,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3139,7 +3141,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3189,7 +3191,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3239,7 +3241,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3289,7 +3291,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3339,7 +3341,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Circle</Algorithm>
@@ -3389,7 +3391,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3439,7 +3441,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3489,7 +3491,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3539,7 +3541,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3589,7 +3591,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3639,7 +3641,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3689,7 +3691,7 @@
     <StartOffset>330</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3739,7 +3741,7 @@
     <StartOffset>350</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3789,7 +3791,7 @@
     <StartOffset>330</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Eight</Algorithm>
@@ -3839,7 +3841,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -3889,7 +3891,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -3939,7 +3941,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -3989,7 +3991,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -4039,7 +4041,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -4089,7 +4091,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Diamond</Algorithm>
@@ -4139,7 +4141,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -4189,7 +4191,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -4239,7 +4241,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -4289,7 +4291,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -4339,7 +4341,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -4389,7 +4391,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4439,7 +4441,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4489,7 +4491,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4539,7 +4541,7 @@
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4589,7 +4591,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4639,7 +4641,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4689,7 +4691,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4739,7 +4741,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4789,7 +4791,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4839,7 +4841,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4889,7 +4891,7 @@
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4939,7 +4941,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -4989,7 +4991,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -5039,7 +5041,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line2</Algorithm>
@@ -5089,7 +5091,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5139,7 +5141,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5189,7 +5191,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5239,7 +5241,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5289,7 +5291,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5339,7 +5341,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5389,7 +5391,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5439,7 +5441,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5489,7 +5491,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Line</Algorithm>
@@ -5539,7 +5541,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -5589,7 +5591,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -5639,7 +5641,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -5689,7 +5691,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -5739,7 +5741,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -5789,7 +5791,7 @@
     <StartOffset>270</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Leaf</Algorithm>
@@ -6154,7 +6156,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6204,7 +6206,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6254,7 +6256,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6304,7 +6306,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6354,7 +6356,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6404,7 +6406,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6454,7 +6456,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6504,7 +6506,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6554,7 +6556,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6604,7 +6606,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6654,7 +6656,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6704,7 +6706,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6754,7 +6756,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6804,7 +6806,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6854,7 +6856,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6904,7 +6906,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -6954,7 +6956,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7004,7 +7006,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7054,7 +7056,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7104,7 +7106,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7154,7 +7156,7 @@
     <StartOffset>90</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7204,7 +7206,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7254,7 +7256,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7304,7 +7306,7 @@
     <StartOffset>180</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7354,7 +7356,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -7404,7 +7406,7 @@
     <StartOffset>0</StartOffset>
    </Fixture>
    <PropagationMode>Parallel</PropagationMode>
-   <Speed FadeIn="0" FadeOut="0" Duration="3000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="5000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <Algorithm>Lissajous</Algorithm>
@@ -9234,7 +9236,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="192" HighLimit="255" Value="207">
+      <Level LowLimit="192" HighLimit="255" Value="197">
        <Channel Fixture="6">8</Channel>
        <Channel Fixture="7">8</Channel>
        <Channel Fixture="8">8</Channel>
@@ -9254,7 +9256,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="128" HighLimit="191" Value="142">
+      <Level LowLimit="128" HighLimit="191" Value="130">
        <Channel Fixture="6">8</Channel>
        <Channel Fixture="7">8</Channel>
        <Channel Fixture="8">8</Channel>
@@ -9614,7 +9616,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="128" HighLimit="191" Value="132">
+      <Level LowLimit="128" HighLimit="191" Value="144">
        <Channel Fixture="6">7</Channel>
        <Channel Fixture="7">7</Channel>
        <Channel Fixture="8">7</Channel>
@@ -9634,7 +9636,7 @@
        <Font>Default</Font>
       </Appearance>
       <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-      <Level LowLimit="192" HighLimit="255" Value="242">
+      <Level LowLimit="192" HighLimit="255" Value="199">
        <Channel Fixture="6">7</Channel>
        <Channel Fixture="7">7</Channel>
        <Channel Fixture="8">7</Channel>
@@ -9685,8 +9687,8 @@
       <Axis ID="X" LowLimit="0" HighLimit="1" Reverse="False"/>
       <Axis ID="Y" LowLimit="0" HighLimit="1" Reverse="False"/>
      </Fixture>
-     <Pan Position="127"/>
-     <Tilt Position="48"/>
+     <Pan Position="128"/>
+     <Tilt Position="103"/>
      <Preset ID="16">
       <Type>Position</Type>
       <Name>S</Name>
@@ -9752,7 +9754,7 @@
       </Appearance>
       <Visibility>0</Visibility>
       <AbsoluteValue Minimum="0" Maximum="10000"/>
-      <Time>3000</Time>
+      <Time>5000</Time>
       <Function FadeIn="0" FadeOut="0" Duration="6">512</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">525</Function>
       <Function FadeIn="0" FadeOut="0" Duration="6">511</Function>
@@ -10873,6 +10875,7 @@
     </Appearance>
     <Function ID="12"/>
     <Action>Flash</Action>
+    <Key>\</Key>
     <Intensity Adjust="False">100</Intensity>
    </Button>
   </Frame>

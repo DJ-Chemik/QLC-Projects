@@ -1504,7 +1504,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
   <Function ID="218" Type="Chaser" Name="Red --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1516,7 +1516,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">28</Step>
   </Function>
   <Function ID="219" Type="Chaser" Name="Green --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1528,7 +1528,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">32</Step>
   </Function>
   <Function ID="220" Type="Chaser" Name="Magenta (RB) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1540,7 +1540,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">73</Step>
   </Function>
   <Function ID="221" Type="Chaser" Name="White --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1562,7 +1562,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
   </Function>
   <Function ID="225" Type="Chaser" Name="Amber --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1582,7 +1582,7 @@
    <FixtureVal ID="6">7,75</FixtureVal>
   </Function>
   <Function ID="228" Type="Chaser" Name="Orange Intense (RA) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1594,7 +1594,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">67</Step>
   </Function>
   <Function ID="229" Type="Chaser" Name="Yellow (RG) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1606,7 +1606,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">65</Step>
   </Function>
   <Function ID="230" Type="Chaser" Name="Cyan (GB) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1618,7 +1618,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">66</Step>
   </Function>
   <Function ID="231" Type="Chaser" Name="Blue+White (BW) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1630,7 +1630,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">69</Step>
   </Function>
   <Function ID="232" Type="Chaser" Name="Cyan blueing (GB) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1642,7 +1642,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">68</Step>
   </Function>
   <Function ID="233" Type="Chaser" Name="UV --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1654,7 +1654,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">33</Step>
   </Function>
   <Function ID="234" Type="Chaser" Name="Mint (GUv) --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1670,7 +1670,7 @@
    <FixtureVal ID="6">7,115</FixtureVal>
   </Function>
   <Function ID="236" Type="Chaser" Name="Blue --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Right --&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1682,7 +1682,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">30</Step>
   </Function>
   <Function ID="237" Type="Chaser" Name="Amber &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1694,7 +1694,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">34</Step>
   </Function>
   <Function ID="238" Type="Chaser" Name="Blue &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1706,7 +1706,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">30</Step>
   </Function>
   <Function ID="239" Type="Chaser" Name="Blue+White (BW) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1718,7 +1718,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">69</Step>
   </Function>
   <Function ID="240" Type="Chaser" Name="Cyan (GB) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1730,7 +1730,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">66</Step>
   </Function>
   <Function ID="241" Type="Chaser" Name="Cyan blueing (GB) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1742,7 +1742,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">68</Step>
   </Function>
   <Function ID="242" Type="Chaser" Name="Magenta (RB) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1754,7 +1754,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">73</Step>
   </Function>
   <Function ID="243" Type="Chaser" Name="Mint (GUv) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1766,7 +1766,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">72</Step>
   </Function>
   <Function ID="244" Type="Chaser" Name="Orange Intense (RA) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1778,7 +1778,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">67</Step>
   </Function>
   <Function ID="245" Type="Chaser" Name="Red &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1790,7 +1790,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">28</Step>
   </Function>
   <Function ID="246" Type="Chaser" Name="UV &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1802,7 +1802,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">33</Step>
   </Function>
   <Function ID="247" Type="Chaser" Name="White &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1871,7 +1871,7 @@
    <FixtureVal ID="9">5,255</FixtureVal>
   </Function>
   <Function ID="250" Type="Chaser" Name="Yellow (RG) &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1883,7 +1883,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">65</Step>
   </Function>
   <Function ID="251" Type="Chaser" Name="Green &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;/Left &lt;--">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1895,7 +1895,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">32</Step>
   </Function>
   <Function ID="252" Type="Chaser" Name="Left &lt;--" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="300"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1200"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1914,7 +1914,7 @@
    <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">250</Step>
   </Function>
   <Function ID="253" Type="Chaser" Name="Right --&gt;" Path="LED PARS/Przejściowa zmiana kolorów &lt;- -&gt;">
-   <Speed FadeIn="0" FadeOut="0" Duration="300"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1200"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1933,7 +1933,7 @@
    <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">229</Step>
   </Function>
   <Function ID="254" Type="Chaser" Name="X-Przejściowa zmiana kolorów &lt;- -&gt;" Path="LED PARS">
-   <Speed FadeIn="0" FadeOut="0" Duration="600"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="2400"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1941,7 +1941,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">253</Step>
   </Function>
   <Function ID="255" Type="Chaser" Name="(blue+white)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1962,7 +1962,7 @@
    <FixtureVal ID="5">0,255,8,0,9,0</FixtureVal>
   </Function>
   <Function ID="257" Type="Chaser" Name="Orange Intense" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -1974,7 +1974,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">652</Step>
   </Function>
   <Function ID="258" Type="Chaser" Name="X-CHAOS" Path="LED PARS">
-   <Speed FadeIn="50" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="50" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
@@ -2501,7 +2501,7 @@
    <FixtureVal ID="6">6,130</FixtureVal>
   </Function>
   <Function ID="367" Type="Chaser" Name="Mint" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -2537,7 +2537,7 @@
    <FixtureVal ID="7">6,130</FixtureVal>
   </Function>
   <Function ID="374" Type="Chaser" Name="RED + BLUE" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7928,7 +7928,7 @@
    <FixtureVal ID="9">6,130</FixtureVal>
   </Function>
   <Function ID="550" Type="Chaser" Name="AMBER + BLUE" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7936,7 +7936,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">683</Step>
   </Function>
   <Function ID="551" Type="Chaser" Name="AMBER + Cyan" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7944,7 +7944,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">686</Step>
   </Function>
   <Function ID="552" Type="Chaser" Name="RED + GREEN" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7952,7 +7952,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">701</Step>
   </Function>
   <Function ID="553" Type="Chaser" Name="RED + Mint" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7960,7 +7960,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">700</Step>
   </Function>
   <Function ID="554" Type="Chaser" Name="UV + Magenta" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7968,7 +7968,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">692</Step>
   </Function>
   <Function ID="555" Type="Chaser" Name="UV + Orange Intense" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7976,7 +7976,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">691</Step>
   </Function>
   <Function ID="556" Type="Chaser" Name="WHITE + Orange Intense" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7984,7 +7984,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">580</Step>
   </Function>
   <Function ID="557" Type="Chaser" Name="WHITE + Magenta" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -7992,7 +7992,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">681</Step>
   </Function>
   <Function ID="558" Type="Chaser" Name="Cyan + Magenta" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8000,7 +8000,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">704</Step>
   </Function>
   <Function ID="559" Type="Chaser" Name="Cyan blueing + (blue+white)" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8008,7 +8008,7 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">689</Step>
   </Function>
   <Function ID="560" Type="Chaser" Name="X-1z6 świeci - losowy" Path="LED PARS">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8092,7 +8092,7 @@
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
   </Function>
   <Function ID="562" Type="Chaser" Name="X-Przeplatanka (-X-X-X)" Path="LED PARS">
-   <Speed FadeIn="0" FadeOut="0" Duration="100"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="400"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8112,7 +8112,7 @@
    <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">556</Step>
   </Function>
   <Function ID="563" Type="Chaser" Name="X-1z6 świeci - przejścia" Path="LED PARS">
-   <Speed FadeIn="0" FadeOut="0" Duration="300"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="1200"/>
    <Direction>Forward</Direction>
    <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8307,7 +8307,7 @@
    <Step Number="1">564</Step>
   </Function>
   <Function ID="587" Type="Chaser" Name="Magenta" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8508,7 +8508,7 @@
    <Step Number="1">103</Step>
   </Function>
   <Function ID="634" Type="Chaser" Name="GREEN" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8564,7 +8564,7 @@
    <Step Number="1">570</Step>
   </Function>
   <Function ID="646" Type="Chaser" Name="Cyan" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8616,7 +8616,7 @@
    <Step Number="1">578</Step>
   </Function>
   <Function ID="657" Type="Chaser" Name="BLUE" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8628,7 +8628,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">647</Step>
   </Function>
   <Function ID="658" Type="Chaser" Name="AMBER" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8640,7 +8640,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">586</Step>
   </Function>
   <Function ID="659" Type="Chaser" Name="UV" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8652,7 +8652,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">654</Step>
   </Function>
   <Function ID="660" Type="Chaser" Name="Yellow" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8664,7 +8664,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">656</Step>
   </Function>
   <Function ID="661" Type="Chaser" Name="WHITE" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8676,7 +8676,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">655</Step>
   </Function>
   <Function ID="662" Type="Chaser" Name="RED" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8688,7 +8688,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">653</Step>
   </Function>
   <Function ID="663" Type="Chaser" Name="(blue+white) (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8700,7 +8700,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">645</Step>
   </Function>
   <Function ID="664" Type="Chaser" Name="AMBER (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8712,7 +8712,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">586</Step>
   </Function>
   <Function ID="665" Type="Chaser" Name="BLUE (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8724,7 +8724,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">647</Step>
   </Function>
   <Function ID="666" Type="Chaser" Name="Cyan (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8736,7 +8736,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">648</Step>
   </Function>
   <Function ID="667" Type="Chaser" Name="GREEN (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8748,7 +8748,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">649</Step>
   </Function>
   <Function ID="668" Type="Chaser" Name="Magenta (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8760,7 +8760,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">650</Step>
   </Function>
   <Function ID="669" Type="Chaser" Name="Mint (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8772,7 +8772,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">651</Step>
   </Function>
   <Function ID="670" Type="Chaser" Name="Orange Intense (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8784,7 +8784,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">652</Step>
   </Function>
   <Function ID="671" Type="Chaser" Name="RED (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8796,7 +8796,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">653</Step>
   </Function>
   <Function ID="672" Type="Chaser" Name="UV (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8808,7 +8808,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">654</Step>
   </Function>
   <Function ID="673" Type="Chaser" Name="WHITE (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8820,7 +8820,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">655</Step>
   </Function>
   <Function ID="674" Type="Chaser" Name="Yellow (Copy)" Path="LED PARS/1z6 świeci - przejścia">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Backward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8832,7 +8832,7 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">656</Step>
   </Function>
   <Function ID="675" Type="Chaser" Name="UV + Yellow" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8853,7 +8853,7 @@
    <Step Number="6" FadeIn="0" Hold="8000" FadeOut="0">510</Step>
   </Function>
   <Function ID="677" Type="Chaser" Name="GREEN + Yellow" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -8876,7 +8876,7 @@
    <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">441</Step>
   </Function>
   <Function ID="679" Type="Chaser" Name="Mint + (blue+white)" Path="LED PARS/Przeplatanka (-X-X-X)">
-   <Speed FadeIn="0" FadeOut="0" Duration="50"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="200"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
@@ -10773,7 +10773,7 @@
     <AbsoluteValue Minimum="100" Maximum="2000">
      <Input Universe="0" Channel="12"/>
     </AbsoluteValue>
-    <Time>100</Time>
+    <Time>400</Time>
     <Function FadeIn="0" FadeOut="0" Duration="6">562</Function>
     <Preset ID="16">
      <Name>100ms</Name>
@@ -10824,7 +10824,7 @@
     <AbsoluteValue Minimum="300" Maximum="6000">
      <Input Universe="0" Channel="12"/>
     </AbsoluteValue>
-    <Time>300</Time>
+    <Time>1200</Time>
     <Function FadeIn="0" FadeOut="0" Duration="6">563</Function>
     <Preset ID="16">
      <Name>300ms</Name>
@@ -10875,7 +10875,7 @@
     <AbsoluteValue Minimum="300" Maximum="6000">
      <Input Universe="0" Channel="12"/>
     </AbsoluteValue>
-    <Time>300</Time>
+    <Time>1200</Time>
     <Function FadeIn="0" FadeOut="0" Duration="7">254</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">253</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">252</Function>
@@ -10928,7 +10928,7 @@
     <AbsoluteValue Minimum="50" Maximum="1000">
      <Input Universe="0" Channel="12"/>
     </AbsoluteValue>
-    <Time>50</Time>
+    <Time>200</Time>
     <Function FadeIn="0" FadeOut="0" Duration="6">229</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">250</Function>
     <Function FadeIn="0" FadeOut="0" Duration="6">674</Function>
