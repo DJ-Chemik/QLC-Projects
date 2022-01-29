@@ -7,3 +7,6 @@ Statyw
 { 
 	BIG:	(4 pary Eurolite64 du¿e puszki + 1 Derby Flash Butrym + 1 Revo 3) 
 }
+
+
+Dopisek: CTRL - kontroler
