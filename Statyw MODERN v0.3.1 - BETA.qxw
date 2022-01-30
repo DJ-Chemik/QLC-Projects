@@ -3,7 +3,7 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="FunctionManager">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.4</Version>
+  <Version>4.11.2</Version>
   <Author>Chemik</Author>
  </Creator>
  <Engine>
@@ -74,6 +74,10 @@
    <Address>70</Address>
    <Channels>7</Channels>
   </Fixture>
+  <Function ID="2" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">30</Step>
+  </Function>
   <Function ID="4" Type="Scene" Name="ALL PARs -&gt; RED" Path="PARY/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -361,6 +365,330 @@
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
   </Function>
+  <Function ID="65" Type="Scene" Name="[1] Yellow (green+red)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="66" Type="Scene" Name="[1] Cyan (blue+green)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="67" Type="Scene" Name="[1] Orange Intense (red+amber)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="68" Type="Scene" Name="[1] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="69" Type="Scene" Name="[1] (blue+white)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="70" Type="Scene" Name="[1] Warm White (rgbwa)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="71" Type="Scene" Name="[1] Cold White (rgbw)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="72" Type="Scene" Name="[1] Mint (green+uv)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="73" Type="Scene" Name="[1] Magenta (blue+red)" Path="PARY/PAR [1]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="74" Type="Scene" Name="[2] (blue+white)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="75" Type="Scene" Name="[2] Cold White (rgbw)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="76" Type="Scene" Name="[2] Cyan (blue+green)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="77" Type="Scene" Name="[2] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="78" Type="Scene" Name="[2] Orange Intense (red+amber)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="79" Type="Scene" Name="[2] Warm White (rgbwa)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="80" Type="Scene" Name="[2] Yellow (green+red)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="81" Type="Scene" Name="[2] Magenta (blue+red) " Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="82" Type="Scene" Name="[2] Mint (green+uv)" Path="PARY/PAR [2]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="83" Type="Scene" Name="[3] Yellow (green+red)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="84" Type="Scene" Name="[3] Mint (green+uv)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="85" Type="Scene" Name="[3] Warm White (rgbwa)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,255,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="86" Type="Scene" Name="[3] Orange Intense (red+amber)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="87" Type="Scene" Name="[3] Magenta (blue+red)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,0,5,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="88" Type="Scene" Name="[3] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="89" Type="Scene" Name="[3] Cyan (blue+green)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="90" Type="Scene" Name="[3] Cold White (rgbw)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="91" Type="Scene" Name="[3] (blue+white)" Path="PARY/PAR [3]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="92" Type="Scene" Name="[4] Magenta (blue+red)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="93" Type="Scene" Name="[4] Orange Intense (red+amber)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="94" Type="Scene" Name="[4] Yellow (green+red) " Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="95" Type="Scene" Name="[4] Warm White (rgbwa)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="96" Type="Scene" Name="[4] Mint (green+uv)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="97" Type="Scene" Name="[4] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="98" Type="Scene" Name="[4] Cyan (blue+green)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="99" Type="Scene" Name="[4] Cold White (rgbw)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
+  <Function ID="100" Type="Scene" Name="[4] (blue+white)" Path="PARY/PAR [4]/OTHER COLORS">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="0">8,0,9,0</FixtureVal>
+   <FixtureVal ID="1">8,0,9,0</FixtureVal>
+   <FixtureVal ID="2">8,0,9,0</FixtureVal>
+   <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
+   <FixtureVal ID="4"/>
+   <FixtureVal ID="5"/>
+  </Function>
   <Function ID="173" Type="Scene" Name="Gradient (235) (na przerwe)" Path="PARY/TRYBY WBUDOWANE Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,187,9,235</FixtureVal>
@@ -466,12 +794,462 @@
    <FixtureVal ID="2">0,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,8,0,9,0</FixtureVal>
   </Function>
+  <Function ID="259" Type="Collection" Name="(255) Cold White Strobo" Path="LED PARS/Strobo/Cold White Strobo">
+   <Step Number="0">205</Step>
+   <Step Number="1">22</Step>
+  </Function>
+  <Function ID="260" Type="Collection" Name="(230) Cold White Strobo" Path="LED PARS/Strobo/Cold White Strobo">
+   <Step Number="0">22</Step>
+   <Step Number="1">209</Step>
+  </Function>
+  <Function ID="261" Type="Collection" Name="(240) Cold White Strobo" Path="LED PARS/Strobo/Cold White Strobo">
+   <Step Number="0">22</Step>
+   <Step Number="1">206</Step>
+  </Function>
+  <Function ID="262" Type="Collection" Name="(200) Cold White Strobo" Path="LED PARS/Strobo/Cold White Strobo">
+   <Step Number="0">22</Step>
+   <Step Number="1">208</Step>
+  </Function>
+  <Function ID="263" Type="Collection" Name="(220) Cold White Strobo" Path="LED PARS/Strobo/Cold White Strobo">
+   <Step Number="0">22</Step>
+   <Step Number="1">207</Step>
+  </Function>
+  <Function ID="579" Type="Collection" Name="New Collection 579" Path="LED PARS/Połówki i dwójki"/>
+  <Function ID="580" Type="Collection" Name="WHITE + Orange Intense 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">31</Step>
+   <Step Number="1">78</Step>
+   <Step Number="2">41</Step>
+   <Step Number="3">93</Step>
+  </Function>
+  <Function ID="581" Type="Collection" Name="New Collection 581" Path="LED PARS/Strobo"/>
+  <Function ID="582" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">40</Step>
+  </Function>
+  <Function ID="583" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">46</Step>
+  </Function>
+  <Function ID="584" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">52</Step>
+  </Function>
+  <Function ID="585" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="586" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
   <Function ID="588" Type="Scene" Name="ALL PARs -&gt; GREEN" Path="PARY/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
+  </Function>
+  <Function ID="589" Type="Collection" Name="AMBER" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">34</Step>
+  </Function>
+  <Function ID="590" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">28</Step>
+  </Function>
+  <Function ID="591" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">31</Step>
+  </Function>
+  <Function ID="592" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">32</Step>
+  </Function>
+  <Function ID="593" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">33</Step>
+  </Function>
+  <Function ID="594" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">67</Step>
+  </Function>
+  <Function ID="595" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">65</Step>
+  </Function>
+  <Function ID="596" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">73</Step>
+  </Function>
+  <Function ID="597" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">66</Step>
+  </Function>
+  <Function ID="598" Type="Collection" Name="(blue+white)" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">69</Step>
+  </Function>
+  <Function ID="599" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/1P">
+   <Step Number="0">12</Step>
+   <Step Number="1">72</Step>
+  </Function>
+  <Function ID="600" Type="Collection" Name="(blue+white)" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">74</Step>
+  </Function>
+  <Function ID="601" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">39</Step>
+  </Function>
+  <Function ID="602" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">76</Step>
+  </Function>
+  <Function ID="603" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">38</Step>
+  </Function>
+  <Function ID="604" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">81</Step>
+  </Function>
+  <Function ID="605" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">82</Step>
+  </Function>
+  <Function ID="606" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">78</Step>
+  </Function>
+  <Function ID="607" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">37</Step>
+  </Function>
+  <Function ID="608" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">36</Step>
+  </Function>
+  <Function ID="609" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">35</Step>
+  </Function>
+  <Function ID="610" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/2P">
+   <Step Number="0">12</Step>
+   <Step Number="1">80</Step>
+  </Function>
+  <Function ID="611" Type="Collection" Name="(blue+white)" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">91</Step>
+  </Function>
+  <Function ID="612" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">45</Step>
+  </Function>
+  <Function ID="613" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">89</Step>
+  </Function>
+  <Function ID="614" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">44</Step>
+  </Function>
+  <Function ID="615" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">87</Step>
+  </Function>
+  <Function ID="616" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">84</Step>
+  </Function>
+  <Function ID="617" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">86</Step>
+  </Function>
+  <Function ID="618" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">43</Step>
+  </Function>
+  <Function ID="619" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">42</Step>
+  </Function>
+  <Function ID="620" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">41</Step>
+  </Function>
+  <Function ID="621" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/3P">
+   <Step Number="0">12</Step>
+   <Step Number="1">83</Step>
+  </Function>
+  <Function ID="622" Type="Collection" Name="(blue+white)" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">100</Step>
+  </Function>
+  <Function ID="623" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">51</Step>
+  </Function>
+  <Function ID="624" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">98</Step>
+  </Function>
+  <Function ID="625" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">50</Step>
+  </Function>
+  <Function ID="626" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">92</Step>
+  </Function>
+  <Function ID="627" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">96</Step>
+  </Function>
+  <Function ID="628" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">93</Step>
+  </Function>
+  <Function ID="629" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">49</Step>
+  </Function>
+  <Function ID="630" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">48</Step>
+  </Function>
+  <Function ID="631" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">47</Step>
+  </Function>
+  <Function ID="632" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/4P">
+   <Step Number="0">12</Step>
+   <Step Number="1">94</Step>
+  </Function>
+  <Function ID="633" Type="Collection" Name="(blue+white)">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="635" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="636" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="637" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="638" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="639" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="640" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="641" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="642" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="643" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="644" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/5P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="645" Type="Collection" Name="(blue+white)" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="647" Type="Collection" Name="BLUE" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="648" Type="Collection" Name="Cyan" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="649" Type="Collection" Name="GREEN" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="650" Type="Collection" Name="Magenta" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="651" Type="Collection" Name="Mint" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="652" Type="Collection" Name="Orange Intense" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="653" Type="Collection" Name="RED" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="654" Type="Collection" Name="UV" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="655" Type="Collection" Name="WHITE" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="656" Type="Collection" Name="Yellow" Path="LED PARS/1z6 świeci/6P">
+   <Step Number="0">12</Step>
+  </Function>
+  <Function ID="680" Type="Collection" Name="WHITE + Orange Intense 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">67</Step>
+   <Step Number="1">35</Step>
+   <Step Number="2">86</Step>
+   <Step Number="3">47</Step>
+  </Function>
+  <Function ID="681" Type="Collection" Name="WHITE + Magenta 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">31</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">41</Step>
+   <Step Number="3">92</Step>
+  </Function>
+  <Function ID="682" Type="Collection" Name="WHITE + Magenta 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">73</Step>
+   <Step Number="1">35</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">47</Step>
+  </Function>
+  <Function ID="683" Type="Collection" Name="AMBER + BLUE 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">30</Step>
+   <Step Number="1">40</Step>
+   <Step Number="2">45</Step>
+   <Step Number="3">52</Step>
+  </Function>
+  <Function ID="684" Type="Collection" Name="UV + Yellow 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">33</Step>
+   <Step Number="1">80</Step>
+   <Step Number="2">42</Step>
+   <Step Number="3">94</Step>
+  </Function>
+  <Function ID="685" Type="Collection" Name="UV + Yellow 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">65</Step>
+   <Step Number="1">36</Step>
+   <Step Number="2">83</Step>
+   <Step Number="3">48</Step>
+  </Function>
+  <Function ID="686" Type="Collection" Name="AMBER + Cyan 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">66</Step>
+   <Step Number="1">40</Step>
+   <Step Number="2">89</Step>
+   <Step Number="3">52</Step>
+  </Function>
+  <Function ID="687" Type="Collection" Name="AMBER + Cyan 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">34</Step>
+   <Step Number="1">76</Step>
+   <Step Number="2">46</Step>
+   <Step Number="3">98</Step>
+  </Function>
+  <Function ID="688" Type="Collection" Name="UV + Orange Intense 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">33</Step>
+   <Step Number="1">78</Step>
+   <Step Number="2">42</Step>
+   <Step Number="3">93</Step>
+  </Function>
+  <Function ID="689" Type="Collection" Name="Cyan blueing + (blue+white) 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">69</Step>
+   <Step Number="1">77</Step>
+   <Step Number="2">91</Step>
+   <Step Number="3">97</Step>
+  </Function>
+  <Function ID="690" Type="Collection" Name="UV + Magenta 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">33</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">42</Step>
+   <Step Number="3">92</Step>
+  </Function>
+  <Function ID="691" Type="Collection" Name="UV + Orange Intense 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">67</Step>
+   <Step Number="1">36</Step>
+   <Step Number="2">86</Step>
+   <Step Number="3">48</Step>
+  </Function>
+  <Function ID="692" Type="Collection" Name="UV + Magenta 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">73</Step>
+   <Step Number="1">36</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">48</Step>
+  </Function>
+  <Function ID="693" Type="Collection" Name="Cyan blueing + (blue+white) 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">68</Step>
+   <Step Number="1">74</Step>
+   <Step Number="2">88</Step>
+   <Step Number="3">100</Step>
+  </Function>
+  <Function ID="694" Type="Collection" Name="Mint + (blue+white) 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">69</Step>
+   <Step Number="1">82</Step>
+   <Step Number="2">91</Step>
+   <Step Number="3">96</Step>
+  </Function>
+  <Function ID="695" Type="Collection" Name="RED + GREEN 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">28</Step>
+   <Step Number="1">38</Step>
+   <Step Number="2">43</Step>
+   <Step Number="3">50</Step>
+  </Function>
+  <Function ID="696" Type="Collection" Name="GREEN + Yellow 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">65</Step>
+   <Step Number="1">38</Step>
+   <Step Number="2">83</Step>
+   <Step Number="3">50</Step>
+  </Function>
+  <Function ID="697" Type="Collection" Name="Mint + (blue+white) 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">72</Step>
+   <Step Number="1">74</Step>
+   <Step Number="2">84</Step>
+   <Step Number="3">100</Step>
+  </Function>
+  <Function ID="698" Type="Collection" Name="AMBER + BLUE 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">34</Step>
+   <Step Number="1">39</Step>
+   <Step Number="2">46</Step>
+   <Step Number="3">51</Step>
+  </Function>
+  <Function ID="699" Type="Collection" Name="GREEN + Yellow 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">32</Step>
+   <Step Number="1">80</Step>
+   <Step Number="2">44</Step>
+   <Step Number="3">94</Step>
+  </Function>
+  <Function ID="700" Type="Collection" Name="RED + Mint 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">28</Step>
+   <Step Number="1">82</Step>
+   <Step Number="2">43</Step>
+   <Step Number="3">96</Step>
+  </Function>
+  <Function ID="701" Type="Collection" Name="RED + GREEN 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">32</Step>
+   <Step Number="1">37</Step>
+   <Step Number="2">44</Step>
+   <Step Number="3">49</Step>
+  </Function>
+  <Function ID="702" Type="Collection" Name="Cyan + Magenta 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">66</Step>
+   <Step Number="1">81</Step>
+   <Step Number="2">89</Step>
+   <Step Number="3">92</Step>
+  </Function>
+  <Function ID="703" Type="Collection" Name="RED + Mint 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">72</Step>
+   <Step Number="1">37</Step>
+   <Step Number="2">84</Step>
+   <Step Number="3">49</Step>
+  </Function>
+  <Function ID="704" Type="Collection" Name="Cyan + Magenta 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">73</Step>
+   <Step Number="1">76</Step>
+   <Step Number="2">87</Step>
+   <Step Number="3">98</Step>
+  </Function>
+  <Function ID="705" Type="Collection" Name="RED + BLUE 1" Path="LED PARS/Przeplatanka">
+   <Step Number="0">28</Step>
+   <Step Number="1">39</Step>
+   <Step Number="2">43</Step>
+   <Step Number="3">51</Step>
+  </Function>
+  <Function ID="706" Type="Collection" Name="RED + BLUE 2" Path="LED PARS/Przeplatanka">
+   <Step Number="0">30</Step>
+   <Step Number="1">37</Step>
+   <Step Number="2">45</Step>
+   <Step Number="3">49</Step>
   </Function>
   <Function ID="222001" Type="Scene" Name="Strobo OFF" Path="DERBY/Strobo">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
