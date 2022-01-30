@@ -9964,26 +9964,26 @@
      <Preset ID="16">
       <Type>Position</Type>
       <Name>S</Name>
-      <X>128.223</X>
-      <Y>127.777</Y>
+      <X>128</X>
+      <Y>100</Y>
      </Preset>
      <Preset ID="17">
       <Type>Position</Type>
       <Name>1</Name>
-      <X>128.67</X>
-      <Y>103.204</Y>
+      <X>128</X>
+      <Y>80</Y>
      </Preset>
      <Preset ID="18">
       <Type>Position</Type>
       <Name>2</Name>
-      <X>127.777</X>
-      <Y>65.6754</Y>
+      <X>128</X>
+      <Y>65</Y>
      </Preset>
      <Preset ID="19">
       <Type>Position</Type>
       <Name>4</Name>
-      <X>127.777</X>
-      <Y>48.6981</Y>
+      <X>128</X>
+      <Y>50</Y>
      </Preset>
     </XYPad>
     <Button Caption="HEADS ON/OFF" ID="3" Icon="">
