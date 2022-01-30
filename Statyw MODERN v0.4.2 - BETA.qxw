@@ -78,294 +78,294 @@
    <Step Number="0">12</Step>
    <Step Number="1">30</Step>
   </Function>
-  <Function ID="4" Type="Scene" Name="ALL PARs -&gt; RED" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="4" Type="Scene" Name="ALL PARs -&gt; RED" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="5" Type="Scene" Name="ALL PARs -&gt; BLUE" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="5" Type="Scene" Name="ALL PARs -&gt; BLUE" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="12" Type="Scene" Name="ALL PARs OFF" Path="PARY">
+  <Function ID="12" Type="Scene" Name="ALL PARs OFF" Path="LED PARS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0</FixtureVal>
    <FixtureVal ID="1">0,0</FixtureVal>
    <FixtureVal ID="2">0,0</FixtureVal>
    <FixtureVal ID="3">0,0</FixtureVal>
   </Function>
-  <Function ID="13" Type="Scene" Name="ALL PARs ON" Path="PARY">
+  <Function ID="13" Type="Scene" Name="ALL PARs ON" Path="LED PARS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255</FixtureVal>
    <FixtureVal ID="1">0,255</FixtureVal>
    <FixtureVal ID="2">0,255</FixtureVal>
    <FixtureVal ID="3">0,255</FixtureVal>
   </Function>
-  <Function ID="15" Type="Scene" Name="ALL PARs -&gt; AMBER" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="15" Type="Scene" Name="ALL PARs -&gt; AMBER" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="16" Type="Scene" Name="ALL PARs -&gt; WHITE" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="16" Type="Scene" Name="ALL PARs -&gt; WHITE" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="17" Type="Scene" Name="ALL PARs -&gt; UV" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="17" Type="Scene" Name="ALL PARs -&gt; UV" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="18" Type="Scene" Name="ALL PARs -&gt; Cyan (blue+green)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="18" Type="Scene" Name="ALL PARs -&gt; Cyan (blue+green)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="19" Type="Scene" Name="ALL PARs -&gt; Magenta (blue+red)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="19" Type="Scene" Name="ALL PARs -&gt; Magenta (blue+red)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="21" Type="Scene" Name="ALL PARs -&gt;  Mint (green+uv)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="21" Type="Scene" Name="ALL PARs -&gt;  Mint (green+uv)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,255,3,2,4,0,5,0,6,255,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="22" Type="Scene" Name="ALL PARs -&gt;  Cold White (rgbw)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="22" Type="Scene" Name="ALL PARs -&gt;  Cold White (rgbw)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="23" Type="Scene" Name="ALL PARs -&gt; Orange Intense (red+amber)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="23" Type="Scene" Name="ALL PARs -&gt; Orange Intense (red+amber)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="24" Type="Scene" Name="ALL PARs -&gt; Yellow (green+red)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="24" Type="Scene" Name="ALL PARs -&gt; Yellow (green+red)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="25" Type="Scene" Name="ALL PARs -&gt;  Warm White (rgbwa)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="25" Type="Scene" Name="ALL PARs -&gt;  Warm White (rgbwa)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="26" Type="Scene" Name="ALL PARs -&gt; (blue+white)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="26" Type="Scene" Name="ALL PARs -&gt; (blue+white)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="27" Type="Scene" Name="ALL PARs -&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/ALL PARs -&gt; OTHER COLORS">
+  <Function ID="27" Type="Scene" Name="ALL PARs -&gt; Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="LED PARS/ALL PARs -&gt; OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="28" Type="Scene" Name="[1] RED" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="28" Type="Scene" Name="[1] RED" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="29" Type="Scene" Name="Gradient (255)" Path="PARY/TRYBY WBUDOWANE Auto">
+  <Function ID="29" Type="Scene" Name="Gradient (255)" Path="LED PARS/TRYBY WBUDOWANE Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,187,9,255</FixtureVal>
    <FixtureVal ID="1">0,255,8,187,9,255</FixtureVal>
    <FixtureVal ID="2">0,255,8,187,9,255</FixtureVal>
    <FixtureVal ID="3">0,255,8,187,9,255</FixtureVal>
   </Function>
-  <Function ID="30" Type="Scene" Name="[1] BLUE" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="30" Type="Scene" Name="[1] BLUE" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="31" Type="Scene" Name="[1] WHITE" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="31" Type="Scene" Name="[1] WHITE" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="32" Type="Scene" Name="[1] GREEN" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="32" Type="Scene" Name="[1] GREEN" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="33" Type="Scene" Name="[1] UV" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="33" Type="Scene" Name="[1] UV" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="34" Type="Scene" Name="[1] AMBER" Path="PARY/PAR [1]/BASIC COLORS">
+  <Function ID="34" Type="Scene" Name="[1] AMBER" Path="LED PARS/PAR [1]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="35" Type="Scene" Name="[2] WHITE" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="35" Type="Scene" Name="[2] WHITE" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="36" Type="Scene" Name="[2] UV" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="36" Type="Scene" Name="[2] UV" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="37" Type="Scene" Name="[2] RED" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="37" Type="Scene" Name="[2] RED" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="38" Type="Scene" Name="[2] GREEN" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="38" Type="Scene" Name="[2] GREEN" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="39" Type="Scene" Name="[2] BLUE" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="39" Type="Scene" Name="[2] BLUE" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="40" Type="Scene" Name="[2] AMBER" Path="PARY/PAR [2]/BASIC COLORS">
+  <Function ID="40" Type="Scene" Name="[2] AMBER" Path="LED PARS/PAR [2]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="41" Type="Scene" Name="[3] WHITE" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="41" Type="Scene" Name="[3] WHITE" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="42" Type="Scene" Name="[3] UV" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="42" Type="Scene" Name="[3] UV" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="43" Type="Scene" Name="[3] RED" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="43" Type="Scene" Name="[3] RED" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="44" Type="Scene" Name="[3] GREEN" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="44" Type="Scene" Name="[3] GREEN" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="45" Type="Scene" Name="[3] BLUE" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="45" Type="Scene" Name="[3] BLUE" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="46" Type="Scene" Name="[3] AMBER" Path="PARY/PAR [3]/BASIC COLORS">
+  <Function ID="46" Type="Scene" Name="[3] AMBER" Path="LED PARS/PAR [3]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="47" Type="Scene" Name="[4] WHITE" Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="47" Type="Scene" Name="[4] WHITE" Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,255,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="48" Type="Scene" Name="[4] UV" Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="48" Type="Scene" Name="[4] UV" Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="49" Type="Scene" Name="[4] RED" Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="49" Type="Scene" Name="[4] RED" Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,255,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="50" Type="Scene" Name="[4] GREEN " Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="50" Type="Scene" Name="[4] GREEN " Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="51" Type="Scene" Name="[4] BLUE" Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="51" Type="Scene" Name="[4] BLUE" Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="52" Type="Scene" Name="[4] AMBER" Path="PARY/PAR [4]/BASIC COLORS">
+  <Function ID="52" Type="Scene" Name="[4] AMBER" Path="LED PARS/PAR [4]/BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
    <FixtureVal ID="2">8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,255,1,0,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="65" Type="Scene" Name="[1] Yellow (green+red)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="65" Type="Scene" Name="[1] Yellow (green+red)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -374,7 +374,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="66" Type="Scene" Name="[1] Cyan (blue+green)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="66" Type="Scene" Name="[1] Cyan (blue+green)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -383,7 +383,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="67" Type="Scene" Name="[1] Orange Intense (red+amber)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="67" Type="Scene" Name="[1] Orange Intense (red+amber)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -392,7 +392,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="68" Type="Scene" Name="[1] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="68" Type="Scene" Name="[1] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -401,7 +401,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="69" Type="Scene" Name="[1] (blue+white)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="69" Type="Scene" Name="[1] (blue+white)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -410,7 +410,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="70" Type="Scene" Name="[1] Warm White (rgbwa)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="70" Type="Scene" Name="[1] Warm White (rgbwa)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -419,7 +419,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="71" Type="Scene" Name="[1] Cold White (rgbw)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="71" Type="Scene" Name="[1] Cold White (rgbw)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -428,7 +428,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="72" Type="Scene" Name="[1] Mint (green+uv)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="72" Type="Scene" Name="[1] Mint (green+uv)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -437,7 +437,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="73" Type="Scene" Name="[1] Magenta (blue+red)" Path="PARY/PAR [1]/OTHER COLORS">
+  <Function ID="73" Type="Scene" Name="[1] Magenta (blue+red)" Path="LED PARS/PAR [1]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -446,7 +446,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="74" Type="Scene" Name="[2] (blue+white)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="74" Type="Scene" Name="[2] (blue+white)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,0,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
@@ -455,7 +455,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="75" Type="Scene" Name="[2] Cold White (rgbw)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="75" Type="Scene" Name="[2] Cold White (rgbw)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,0,6,0,8,0,9,0</FixtureVal>
@@ -464,7 +464,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="76" Type="Scene" Name="[2] Cyan (blue+green)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="76" Type="Scene" Name="[2] Cyan (blue+green)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -473,7 +473,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="77" Type="Scene" Name="[2] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="77" Type="Scene" Name="[2] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,128,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -482,7 +482,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="78" Type="Scene" Name="[2] Orange Intense (red+amber)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="78" Type="Scene" Name="[2] Orange Intense (red+amber)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,0,4,0,5,255,6,0,8,0,9,0</FixtureVal>
@@ -491,7 +491,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="79" Type="Scene" Name="[2] Warm White (rgbwa)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="79" Type="Scene" Name="[2] Warm White (rgbwa)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,255,4,255,5,255,6,0,8,0,9,0</FixtureVal>
@@ -500,7 +500,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="80" Type="Scene" Name="[2] Yellow (green+red)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="80" Type="Scene" Name="[2] Yellow (green+red)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -509,7 +509,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="81" Type="Scene" Name="[2] Magenta (blue+red) " Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="81" Type="Scene" Name="[2] Magenta (blue+red) " Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,255,2,0,3,255,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -518,7 +518,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="82" Type="Scene" Name="[2] Mint (green+uv)" Path="PARY/PAR [2]/OTHER COLORS">
+  <Function ID="82" Type="Scene" Name="[2] Mint (green+uv)" Path="LED PARS/PAR [2]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,255,8,0,9,0</FixtureVal>
@@ -527,7 +527,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="83" Type="Scene" Name="[3] Yellow (green+red)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="83" Type="Scene" Name="[3] Yellow (green+red)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -536,7 +536,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="84" Type="Scene" Name="[3] Mint (green+uv)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="84" Type="Scene" Name="[3] Mint (green+uv)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -545,7 +545,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="85" Type="Scene" Name="[3] Warm White (rgbwa)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="85" Type="Scene" Name="[3] Warm White (rgbwa)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -554,7 +554,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="86" Type="Scene" Name="[3] Orange Intense (red+amber)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="86" Type="Scene" Name="[3] Orange Intense (red+amber)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -563,7 +563,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="87" Type="Scene" Name="[3] Magenta (blue+red)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="87" Type="Scene" Name="[3] Magenta (blue+red)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -572,7 +572,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="88" Type="Scene" Name="[3] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="88" Type="Scene" Name="[3] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -581,7 +581,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="89" Type="Scene" Name="[3] Cyan (blue+green)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="89" Type="Scene" Name="[3] Cyan (blue+green)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -590,7 +590,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="90" Type="Scene" Name="[3] Cold White (rgbw)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="90" Type="Scene" Name="[3] Cold White (rgbw)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -599,7 +599,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="91" Type="Scene" Name="[3] (blue+white)" Path="PARY/PAR [3]/OTHER COLORS">
+  <Function ID="91" Type="Scene" Name="[3] (blue+white)" Path="LED PARS/PAR [3]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -608,7 +608,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="92" Type="Scene" Name="[4] Magenta (blue+red)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="92" Type="Scene" Name="[4] Magenta (blue+red)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -617,7 +617,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="93" Type="Scene" Name="[4] Orange Intense (red+amber)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="93" Type="Scene" Name="[4] Orange Intense (red+amber)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -626,7 +626,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="94" Type="Scene" Name="[4] Yellow (green+red) " Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="94" Type="Scene" Name="[4] Yellow (green+red) " Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -635,7 +635,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="95" Type="Scene" Name="[4] Warm White (rgbwa)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="95" Type="Scene" Name="[4] Warm White (rgbwa)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -644,7 +644,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="96" Type="Scene" Name="[4] Mint (green+uv)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="96" Type="Scene" Name="[4] Mint (green+uv)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -653,7 +653,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="97" Type="Scene" Name="[4] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="97" Type="Scene" Name="[4] Cyan blueing (blue&lt;255&gt;+green&lt;128&gt;)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -662,7 +662,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="98" Type="Scene" Name="[4] Cyan (blue+green)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="98" Type="Scene" Name="[4] Cyan (blue+green)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -671,7 +671,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="99" Type="Scene" Name="[4] Cold White (rgbw)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="99" Type="Scene" Name="[4] Cold White (rgbw)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -680,7 +680,7 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="100" Type="Scene" Name="[4] (blue+white)" Path="PARY/PAR [4]/OTHER COLORS">
+  <Function ID="100" Type="Scene" Name="[4] (blue+white)" Path="LED PARS/PAR [4]/OTHER COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">8,0,9,0</FixtureVal>
    <FixtureVal ID="1">8,0,9,0</FixtureVal>
@@ -689,98 +689,98 @@
    <FixtureVal ID="4"/>
    <FixtureVal ID="5"/>
   </Function>
-  <Function ID="173" Type="Scene" Name="Gradient (235) (na przerwe)" Path="PARY/TRYBY WBUDOWANE Auto">
+  <Function ID="173" Type="Scene" Name="Gradient (235) (na przerwe)" Path="LED PARS/TRYBY WBUDOWANE Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,187,9,235</FixtureVal>
    <FixtureVal ID="1">0,255,8,187,9,235</FixtureVal>
    <FixtureVal ID="2">0,255,8,187,9,235</FixtureVal>
    <FixtureVal ID="3">0,255,8,187,9,235</FixtureVal>
   </Function>
-  <Function ID="186" Type="Scene" Name="Jump Change (255) very fast" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+  <Function ID="186" Type="Scene" Name="Jump Change (255) very fast" Path="LED PARS/TRYBY WBUDOWANE Auto/Jump Change">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,133,9,255</FixtureVal>
    <FixtureVal ID="1">0,255,8,133,9,255</FixtureVal>
    <FixtureVal ID="2">0,255,8,133,9,255</FixtureVal>
    <FixtureVal ID="3">0,255,8,133,9,255</FixtureVal>
   </Function>
-  <Function ID="205" Type="Scene" Name="Strobo(255)" Path="PARY/Stroboskopy">
+  <Function ID="205" Type="Scene" Name="Strobo(255)" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,255</FixtureVal>
    <FixtureVal ID="1">7,255</FixtureVal>
    <FixtureVal ID="2">7,255</FixtureVal>
    <FixtureVal ID="3">7,255</FixtureVal>
   </Function>
-  <Function ID="206" Type="Scene" Name="Strobo(240)" Path="PARY/Stroboskopy">
+  <Function ID="206" Type="Scene" Name="Strobo(240)" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,240</FixtureVal>
    <FixtureVal ID="1">7,240</FixtureVal>
    <FixtureVal ID="2">7,240</FixtureVal>
    <FixtureVal ID="3">7,240</FixtureVal>
   </Function>
-  <Function ID="207" Type="Scene" Name="Strobo(220)" Path="PARY/Stroboskopy">
+  <Function ID="207" Type="Scene" Name="Strobo(220)" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,220</FixtureVal>
    <FixtureVal ID="1">7,220</FixtureVal>
    <FixtureVal ID="2">7,220</FixtureVal>
    <FixtureVal ID="3">7,220</FixtureVal>
   </Function>
-  <Function ID="208" Type="Scene" Name="Strobo(200)" Path="PARY/Stroboskopy">
+  <Function ID="208" Type="Scene" Name="Strobo(200)" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,200</FixtureVal>
    <FixtureVal ID="1">7,200</FixtureVal>
    <FixtureVal ID="2">7,200</FixtureVal>
    <FixtureVal ID="3">7,200</FixtureVal>
   </Function>
-  <Function ID="209" Type="Scene" Name="Strobo(230)" Path="PARY/Stroboskopy">
+  <Function ID="209" Type="Scene" Name="Strobo(230)" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,230</FixtureVal>
    <FixtureVal ID="1">7,230</FixtureVal>
    <FixtureVal ID="2">7,230</FixtureVal>
    <FixtureVal ID="3">7,230</FixtureVal>
   </Function>
-  <Function ID="210" Type="Scene" Name="Pulse Change (255)" Path="PARY/TRYBY WBUDOWANE Auto">
+  <Function ID="210" Type="Scene" Name="Pulse Change (255)" Path="LED PARS/TRYBY WBUDOWANE Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,238,9,255</FixtureVal>
    <FixtureVal ID="1">0,255,8,238,9,255</FixtureVal>
    <FixtureVal ID="2">0,255,8,238,9,255</FixtureVal>
    <FixtureVal ID="3">0,255,8,238,9,255</FixtureVal>
   </Function>
-  <Function ID="211" Type="Scene" Name="Jump Change (245) fast" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+  <Function ID="211" Type="Scene" Name="Jump Change (245) fast" Path="LED PARS/TRYBY WBUDOWANE Auto/Jump Change">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,133,9,245</FixtureVal>
    <FixtureVal ID="1">0,255,8,133,9,245</FixtureVal>
    <FixtureVal ID="2">0,255,8,133,9,245</FixtureVal>
    <FixtureVal ID="3">0,255,8,133,9,245</FixtureVal>
   </Function>
-  <Function ID="212" Type="Scene" Name="Jump Change (230) medium" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+  <Function ID="212" Type="Scene" Name="Jump Change (230) medium" Path="LED PARS/TRYBY WBUDOWANE Auto/Jump Change">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,133,9,230</FixtureVal>
    <FixtureVal ID="1">0,255,8,133,9,230</FixtureVal>
    <FixtureVal ID="2">0,255,8,133,9,230</FixtureVal>
    <FixtureVal ID="3">0,255,8,133,9,230</FixtureVal>
   </Function>
-  <Function ID="213" Type="Scene" Name="Jump Change (210) slow" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+  <Function ID="213" Type="Scene" Name="Jump Change (210) slow" Path="LED PARS/TRYBY WBUDOWANE Auto/Jump Change">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,133,9,210</FixtureVal>
    <FixtureVal ID="1">0,255,8,133,9,210</FixtureVal>
    <FixtureVal ID="2">0,255,8,133,9,210</FixtureVal>
    <FixtureVal ID="3">0,255,8,133,9,210</FixtureVal>
   </Function>
-  <Function ID="214" Type="Scene" Name="Jump Change (170) very slow" Path="PARY/TRYBY WBUDOWANE Auto/Jump Change">
+  <Function ID="214" Type="Scene" Name="Jump Change (170) very slow" Path="LED PARS/TRYBY WBUDOWANE Auto/Jump Change">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,133,9,170</FixtureVal>
    <FixtureVal ID="1">0,255,8,133,9,170</FixtureVal>
    <FixtureVal ID="2">0,255,8,133,9,170</FixtureVal>
    <FixtureVal ID="3">0,255,8,133,9,170</FixtureVal>
   </Function>
-  <Function ID="215" Type="Scene" Name="ALL PARs zerowanie STROBO ZOSTAJE" Path="PARY">
+  <Function ID="215" Type="Scene" Name="ALL PARs zerowanie STROBO ZOSTAJE" Path="LED PARS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,0,1,0,2,0,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="2">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="3">0,0,1,0,2,0,3,0,4,0,5,0,6,0,7,0,8,0,9,0</FixtureVal>
   </Function>
-  <Function ID="216" Type="Scene" Name="Brak stroboskopu" Path="PARY/Stroboskopy">
+  <Function ID="216" Type="Scene" Name="Brak stroboskopu" Path="LED PARS/Stroboskopy">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">7,0</FixtureVal>
    <FixtureVal ID="1">7,0</FixtureVal>
@@ -1103,7 +1103,7 @@
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">611</Step>
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">622</Step>
   </Function>
-  <Function ID="256" Type="Scene" Name="Auto OFF" Path="PARY/TRYBY WBUDOWANE Auto">
+  <Function ID="256" Type="Scene" Name="Auto OFF" Path="LED PARS/TRYBY WBUDOWANE Auto">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,8,0,9,0</FixtureVal>
@@ -1450,7 +1450,7 @@
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">615</Step>
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">626</Step>
   </Function>
-  <Function ID="588" Type="Scene" Name="ALL PARs -&gt; GREEN" Path="PARY/ALL PARs -&gt; BASIC COLORS">
+  <Function ID="588" Type="Scene" Name="ALL PARs -&gt; GREEN" Path="LED PARS/ALL PARs -&gt; BASIC COLORS">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
    <FixtureVal ID="1">0,255,1,0,2,255,3,0,4,0,5,0,6,0,8,0,9,0</FixtureVal>
@@ -2095,7 +2095,7 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="5">1,255,2,0,3,0,4,255</FixtureVal>
   </Function>
-  <Function ID="222020" Type="Collection" Name="DerbyRandomColor + auto off">
+  <Function ID="222020" Type="Collection" Name="DerbyRandomColor + auto off" Path="DERBY">
    <Step Number="0">222021</Step>
    <Step Number="1">222003</Step>
   </Function>
