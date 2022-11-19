@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InputProfile>
+<InputProfile xmlns="http://www.qlcplus.org/InputProfile">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.11.2</Version>
+  <Author>DJ Chemik</Author>
+ </Creator>
+ <Manufacturer>Numark</Manufacturer>
+ <Model>Mixtrack II</Model>
+ <Type>MIDI</Type>
+ <Channel Number="7">
+  <Name>Gain B</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="10">
+  <Name>Crossfader</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="11">
+  <Name>Slider 12</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="12">
+  <Name>Slider 13</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="13">
+  <Name>Pitch A</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="14">
+  <Name>Pitch B</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="16">
+  <Name>Treble A</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="17">
+  <Name>Treble B</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="18">
+  <Name>Mid A</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="19">
+  <Name>Mid B</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="20">
+  <Name>Bass A</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="21">
+  <Name>Bass B</Name>
+  <Type>Knob</Type>
+ </Channel>
+ <Channel Number="22">
+  <Name>Gain A</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="23">
+  <Name>Gain Master</Name>
+  <Type>Slider</Type>
+ </Channel>
+ <Channel Number="24">
+  <Name>Jog B</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="25">
+  <Name>Jog A</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="26">
+  <Name>BROWSE</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="27">
+  <Name>Select A-1</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="28">
+  <Name>Select A-2</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="29">
+  <Name>Select A-3</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="30">
+  <Name>Select B-1</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="31">
+  <Name>Select B-2</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="32">
+  <Name>Select B-3</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="33">
+  <Name>Select A-4</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="34">
+  <Name>Select B-4</Name>
+  <Type>Encoder</Type>
+  <Movement Sensitivity="1"/>
+ </Channel>
+ <Channel Number="179">
+  <Name>Cue A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="180">
+  <Name>Load B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="187">
+  <Name>PlayA</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="188">
+  <Name>Cue B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="192">
+  <Name>Sync A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="194">
+  <Name>Play B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="195">
+  <Name>Pitch A-</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="196">
+  <Name>Pitch A+</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="197">
+  <Name>Pitch B-</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="198">
+  <Name>Pitch B+</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="199">
+  <Name>Sync B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="200">
+  <Name>Scratch A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="202">
+  <Name>Stutter A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="203">
+  <Name>Load A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="204">
+  <Name>Stutter B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="205">
+  <Name>Jog A Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="206">
+  <Name>Jog B Touch</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="208">
+  <Name>Scratch B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="209">
+  <Name>Cue A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="210">
+  <Name>Cue B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="211">
+  <Name>Pad A Down-A1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="212">
+  <Name>Pad A Down-A2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="213">
+  <Name>Pad A Down-A3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="214">
+  <Name>Pad B Down-A1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="215">
+  <Name>Pad B Down-A2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="216">
+  <Name>Pad B Down-A3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="217">
+  <Name>Pad A Up-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="218">
+  <Name>Pad A Up-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="219">
+  <Name>Pad A Up-3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="220">
+  <Name>Pad A Up-4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="221">
+  <Name>Pad B Up-1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="222">
+  <Name>Pad B Up-2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="223">
+  <Name>Pad B Up-3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="224">
+  <Name>Pad B Up-4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="225">
+  <Name>Shift A</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="226">
+  <Name>Shift B</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="227">
+  <Name>Pad A Down-A4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="228">
+  <Name>Pad B Down-A4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="229">
+  <Name>Pad A Down-B1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="230">
+  <Name>Pad A Down-B2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="231">
+  <Name>Pad A Down-B3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="232">
+  <Name>Pad A Down-B4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="233">
+  <Name>Pad B Down-B1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="234">
+  <Name>Pad B Down-B2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="235">
+  <Name>Pad B Down-B3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="236">
+  <Name>Pad B Down-B4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="237">
+  <Name>Pad A Down-C1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="238">
+  <Name>Pad A Down-C2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="239">
+  <Name>Pad A Down-C3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="240">
+  <Name>Pad A Down-C4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="241">
+  <Name>Pad B Down-C1</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="242">
+  <Name>Pad B Down-C2</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="243">
+  <Name>Pad B Down-C3</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="244">
+  <Name>Pad B Down-C4</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="246">
+  <Name>BROWSE Click</Name>
+  <Type>Button</Type>
+ </Channel>
+ <Channel Number="247">
+  <Name>Back</Name>
+  <Type>Button</Type>
+ </Channel>
+</InputProfile>
